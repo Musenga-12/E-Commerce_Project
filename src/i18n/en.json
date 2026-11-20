@@ -1,0 +1,256 @@
+{
+  "brand": { "name": "Smart MealMatch", "short": "MealMatch", "tagline": "Know what to cook, what it should cost, and where to get the ingredients." },
+  "nav": {
+    "home": "Home", "planner": "Meal Planner", "recipes": "Recipes", "kits": "Meal Kits", "shop": "Shop Ingredients", "chefs": "Chefs",
+    "cook": "Cook with what I have", "market": "Market list", "pantry": "Pantry", "favorites": "Saved recipes",
+    "cart": "Cart", "account": "Account", "signIn": "Sign in", "signOut": "Sign out", "sellerHub": "Seller hub", "admin": "Admin",
+    "search": "Search ingredients", "searchSubmit": "Search", "language": "Language", "menu": "Open menu", "close": "Close",
+    "main": "Main navigation", "mobile": "Site navigation", "tabs": "Quick navigation", "skip": "Skip to main content", "homeLink": "Smart MealMatch home",
+    "cartCount": "Cart, {{count}} items"
+  },
+  "a11y": {
+    "decrease": "Decrease {{label}}", "increase": "Increase {{label}}", "rating": "Rated {{value}} out of 5",
+    "loading": "Loading", "save": "Save {{name}}", "unsave": "Remove {{name}} from saved", "chart": "Bar chart: {{label}}"
+  },
+  "mock": {
+    "label": "Mock", "sample": "sample", "sampleProfile": "Sample profile", "sampleData": "Sample data",
+    "verifiedMock": "Verified (mock)", "notVerified": "Not yet verified",
+    "banner": "Prototype: prices, sellers, ratings and payments are simulated. No real money moves.",
+    "assistant": "Preview: this assistant reads simple phrases. The real AI model is not connected yet.",
+    "payment": "Mock payment — no request is sent to MTN or Airtel and no money is charged.",
+    "fees": "Sample fee — delivery pricing is still to be confirmed by sellers."
+  },
+  "price": {
+    "seller": "Seller price", "estimate": "Market estimate", "today": "Updated today", "daysAgo_one": "Updated {{count}} day ago",
+    "daysAgo_other": "Updated {{count}} days ago", "was": "Was", "from": "from", "each": "each", "range": "{{min}} – {{max}}"
+  },
+  "common": {
+    "addToCart": "Add to cart", "added": "Added to cart", "viewAll": "View all", "back": "Back", "save": "Save", "saved": "Saved",
+    "continue": "Continue", "cancel": "Cancel", "remove": "Remove", "edit": "Edit", "min": "min", "minutes": "{{count}} min",
+    "serves": "Serves {{count}}", "reviews": "{{count}} reviews", "inStock": "In stock", "lowStock": "Only {{count}} left",
+    "outOfStock": "Out of stock", "total": "Total", "subtotal": "Subtotal", "delivery": "Delivery", "free": "Free",
+    "items_one": "{{count}} item", "items_other": "{{count}} items", "qty": "Quantity", "price": "Price", "status": "Status",
+    "or": "or", "yes": "Yes", "no": "No", "apply": "Apply", "reset": "Reset", "close": "Close", "learnMore": "Learn more",
+    "showResults": "Show {{count}} results", "optional": "optional", "required": "Required", "tryAgain": "Try again",
+    "networkError": "We couldn't load this. Check your connection and try again."
+  },
+  "home": {
+    "eyebrow": "Meal planning and groceries · Kigali",
+    "title": "Know what to cook, what it costs and where to buy it.",
+    "subtitle": "Tell us your budget and who you cook for. We plan your meals, total the ingredients, and help you buy them from the market, a seller or WhatsApp.",
+    "ctaPlan": "Plan my meals", "ctaCook": "Cook with what I have", "ctaBudget": "Plan with {{amount}} a week",
+    "heroAlt": "Fresh vegetables at a market stall",
+    "howTitle": "How it works", "howSub": "From budget to dinner table in four steps.",
+    "how1": "Tell us your budget and preferences", "how1d": "Household size, weekly budget in RWF, cooking time, diet and allergies.",
+    "how2": "Get your personalised meal plan", "how2d": "Balanced, local meals that respect your limits.",
+    "how3": "See ingredient costs", "how3d": "Every meal shows an estimated cost, with the price source and age.",
+    "how4": "Buy everything your way", "how4d": "From the market yourself, from verified sellers, or by WhatsApp.",
+    "plansTitle": "Popular meal plans", "plansSub": "Starting points you can adjust in a minute.",
+    "planStudent": "Student budget", "planStudentD": "1 person · 7 days · under RWF 20,000",
+    "planFamily": "Family week", "planFamilyD": "4 people · 7 days · RWF 70,000",
+    "planQuick": "30-minute dinners", "planQuickD": "2 people · 5 days · quick recipes",
+    "planHealthy": "Vegetarian week", "planHealthyD": "2 people · 7 days · plant-based",
+    "usePlan": "Use this plan",
+    "cookTitle": "Already have some ingredients?", "cookSub": "Tell us what's in your kitchen. We suggest meals and you only buy what's missing — less waste, smaller bills.",
+    "cookExampleHave": "You have", "cookExampleMake": "You can make", "cookExampleBuy": "Buy only",
+    "recipesTitle": "Popular recipes", "kitsTitle": "Meal kits", "kitsSub": "Every ingredient for a dish, measured and packed.",
+    "buyTitle": "Three ways to buy", "buySub": "Choose what suits your day. The plan is the same; only the shopping changes.",
+    "sellersTitle": "Compare verified sellers", "sellersSub": "See each seller's price, delivery fee, rating and how recently the price was updated.",
+    "chefsTitle": "Recipes from local cooks", "chefsSub": "Home cooks and nutritionists share meals they actually make.",
+    "communityTitle": "What early testers told us", "communitySub": "Sample feedback written for this prototype. Real reviews will replace it after usability testing.",
+    "quote1": "I finally know what my week of food will cost before I go to the market.", "quote1by": "Student, Huye (sample)",
+    "quote2": "Picking dinners for five people used to take me an hour every Sunday.", "quote2by": "Parent, Kicukiro (sample)",
+    "quote3": "Buying only the missing ingredients saved me money in the first week.", "quote3by": "Young professional, Remera (sample)"
+  },
+  "buy": {
+    "market": "Market list", "marketD": "Price ranges by market section and a tick-off checklist. Shop in person.",
+    "sellers": "Verified sellers", "sellersD": "Pick sellers by price, rating and delivery. Pay with MTN MoMo or Airtel Money.",
+    "whatsapp": "WhatsApp order", "whatsappD": "Send your list to a seller in chat. The seller confirms availability before you pay."
+  },
+  "shop": {
+    "title": "Shop ingredients", "sub": "Seller prices from Kigali. Compare before you buy.", "all": "All",
+    "sort": "Sort by", "sortFeatured": "Recommended", "sortPriceAsc": "Price: low to high", "sortPriceDesc": "Price: high to low", "sortRating": "Seller rating",
+    "results_one": "{{count}} product", "results_other": "{{count}} products", "empty": "No products match these filters.",
+    "emptySub": "Try removing a filter or searching for a different ingredient.", "sellers_one": "{{count}} seller", "sellers_other": "{{count}} sellers",
+    "searchFor": "Results for “{{q}}”"
+  },
+  "filters": {
+    "title": "Filters", "open": "Filters", "category": "Category", "price": "Price (best offer)", "min": "Minimum RWF", "max": "Maximum RWF",
+    "seller": "Seller", "availability": "Availability", "inStockOnly": "In stock only", "rating": "Seller rating", "rating45": "4.5 and above", "any": "Any",
+    "clear": "Clear all", "active_one": "{{count}} filter", "active_other": "{{count}} filters"
+  },
+  "product": {
+    "compare": "Choose a seller", "compareSub": "Same product, different sellers. Prices and fees are set by each seller.",
+    "deliverTo": "Delivering to", "eta": "about {{hours}} h", "cheapest": "Lowest price", "marketTitle": "Buying at the market instead?",
+    "marketSub": "Typical market range in Kigali. This is an estimate, not a seller price.", "allergens": "Contains",
+    "usedIn": "Used in these recipes", "kitContents": "What's included", "cookThis": "View the recipe", "stockLeft": "{{count}} in stock",
+    "selected": "Selected", "seller": "Sold by", "collection": "Collection available", "description": "About this product"
+  },
+  "sellerProfile": {
+    "since": "Selling since {{year}}", "products": "Products from {{name}}", "collectionAt": "Collection: {{place}}",
+    "noCollection": "Delivery only", "deliveryFees": "Delivery fees", "whatVerified": "What does verified mean?",
+    "whatVerifiedD": "Verified sellers will have their business registration and stall checked by MealMatch staff. In this prototype the badge is sample data."
+  },
+  "recipes": {
+    "title": "Recipes", "subtitle": "Every recipe shows its estimated cost and adds its ingredients to your cart in one step.",
+    "search": "Search recipes", "ingredients": "Ingredients", "method": "Method", "servings": "Servings",
+    "addAll": "Add all ingredients", "addMissing": "Add what I'm missing", "estCost": "Estimated cost", "perServing": "{{amount}} per serving",
+    "prep": "Prep", "cook": "Cook", "difficulty": "Difficulty", "easy": "Easy", "medium": "Medium", "view": "View recipe",
+    "inPantry": "in your pantry", "available": "Available", "unavailable": "Unavailable now",
+    "allergyWarning": "Contains {{list}}, which is in your allergy list.", "substitutions": "Substitutions", "insteadOf": "{{alt}} instead of {{orig}}",
+    "by": "By {{name}}", "costNote": "Estimate for the amount used, from the lowest seller price. Buying whole packs may cost more.",
+    "tags": { "traditional": "Traditional", "vegetarian": "Vegetarian", "budget": "Budget", "quick": "Quick", "protein": "High protein", "family": "Family" },
+    "filterAll": "All", "empty": "No recipes match.", "saved": "Saved recipes", "savedEmpty": "Tap the heart on any recipe to save it here.",
+    "ratingsNote": "Ratings are sample data until real reviews are collected."
+  },
+  "chefs": {
+    "title": "Chefs and creators", "sub": "Local cooks who share recipes on MealMatch. These are sample profiles for the prototype.",
+    "recipes_one": "{{count}} recipe", "recipes_other": "{{count}} recipes", "view": "View profile", "recipesBy": "Recipes by {{name}}"
+  },
+  "kits": {
+    "title": "Meal kits", "sub": "Pre-packed ingredients for one dish or a whole week, from verified sellers.",
+    "serves": "Serves {{count}}", "includes": "Includes {{list}}", "view": "View kit"
+  },
+  "planner": {
+    "title": "Your meal plan", "setupTitle": "Plan your meals", "setupSub": "A few questions. You can change any answer before we build the plan.",
+    "step": "Step {{n}} of {{total}}", "stepLabels": ["Household", "Budget", "Time and days", "Food", "Kitchen", "Review"],
+    "householdType": "Who are you planning for?",
+    "types": { "student": "Just me — student", "professional": "Just me or a couple — working", "family": "A family", "shared": "Shared house" },
+    "adults": "Adults", "children": "Children (under 12)", "budget": "Weekly food budget", "budgetHelp": "We pro-rate it if you plan fewer than 7 days.",
+    "budgetError": "Enter a budget between RWF 5,000 and RWF 500,000.", "time": "Longest cooking time you want per meal",
+    "days": "How many days to plan?", "meals": "Which meals?", "mealsError": "Choose at least one meal.",
+    "diet": "Food preferences", "likes": "Dishes you enjoy", "vegetarian": "Vegetarian only", "allergies": "Allergies and foods to avoid",
+    "kitchen": "Ingredients you already have", "kitchenHelp": "We subtract these from your shopping list.", "usePantry": "Use the items in my pantry",
+    "pantryCount_one": "{{count}} item in your pantry", "pantryCount_other": "{{count}} items in your pantry", "editPantry": "Edit pantry",
+    "review": "Check your answers", "generate": "Build my plan", "regenerate": "Suggest a new plan", "swap": "Swap meal",
+    "editProfile": "Change answers", "budgetPanel": "Budget", "planned": "Planned meals", "remaining": "Remaining", "over": "Over budget",
+    "overBy": "Over budget by {{amount}}", "budgetFor": "Budget for {{days}} days: {{amount}}",
+    "shoppingTitle": "Shopping for this plan", "shoppingSub_one": "{{count}} item to buy after your pantry", "shoppingSub_other": "{{count}} items to buy after your pantry",
+    "leftoverNote": "Shops sell whole packs, so the shopping total can be higher than the meal cost. The difference stays in your kitchen for later.",
+    "buyEverything": "Buy from sellers", "strategy": "Seller choice", "strategies": { "cheapest": "Lowest price", "fewest": "Fewest sellers" },
+    "marketMode": "Shop at the market instead", "whatsapp": "Order by WhatsApp", "lunch": "Lunch", "dinner": "Dinner",
+    "days7": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+    "portion": "{{count}} portions", "noRecipes": "No recipes match these answers.", "noRecipesSub": "Allow more cooking time or remove a restriction.",
+    "lowVariety": "Only {{count}} recipes fit your answers, so some meals repeat. Allowing more cooking time adds variety.",
+    "assistant": "Describe your week", "assistantHint": "e.g. Family of 5, 50,000 RWF, no fish, 45 minutes, 5 days", "assistantApply": "Update plan",
+    "assistantUpdated": "Plan updated from your description.", "addedToCart_one": "{{count}} item added to your cart", "addedToCart_other": "{{count}} items added to your cart",
+    "costPerMeal": "≈ {{amount}}", "subs": "Swap ingredient", "servingsNote": "Quantities for {{count}} portions"
+  },
+  "cook": {
+    "title": "Cook with what I have", "subtitle": "Add what's in your kitchen. We show meals you can make and you buy only what's missing.",
+    "searchLabel": "Add an ingredient", "searchPh": "Search, e.g. rice, tomatoes, eggs", "noMatch": "No ingredient matches “{{q}}”.",
+    "common": "Common ingredients", "yourIngredients": "In my kitchen", "none": "Nothing added yet.", "usePantry": "Add my pantry", "clear": "Clear all",
+    "staples": "We assume you have salt and cooking oil.", "readyNow": "You can cook this now", "match": "You have {{have}} of {{total}}",
+    "missing": "Missing: {{list}}", "empty": "Add a few ingredients to see meals you can make.",
+    "buyMissing": "Buy missing items · {{amount}}", "savings": "Using what you have saves about {{amount}} compared with buying everything.",
+    "photoTitle": "Photo recognition", "photoSoon": "Coming later — the app can't read photos yet."
+  },
+  "market": {
+    "title": "Market list", "subtitle": "Your list with expected market prices, grouped by section. Tick items off as you buy.",
+    "market": "Market", "source": "List from", "sourcePlan": "My meal plan", "sourceCart": "My cart",
+    "estimate": "Expected total", "checked": "{{done}} of {{total}} bought", "spent": "Estimated spend so far",
+    "sections": { "produce": "Fruit and vegetables", "grains": "Grains and legumes", "butchery": "Meat and fish", "dairy": "Dairy and eggs", "groceries": "Groceries" },
+    "empty": "Build a meal plan or add items to your cart to create a market list.",
+    "priceNote": "Market ranges are estimates from sample data. Real ranges will come from seller prices, price scouts and weekly averages.",
+    "reset": "Untick all"
+  },
+  "pantry": {
+    "title": "Pantry", "subtitle": "Items you already have are subtracted from every shopping list.",
+    "add": "Add to pantry", "item": "Ingredient", "useSoon": "Use soon", "expires": "Use by {{date}}", "empty": "Your pantry is empty.",
+    "emptySub": "Add rice, flour, oil or anything you keep at home.", "expiry": "Use-by date"
+  },
+  "cart": {
+    "title": "Cart", "empty": "Your cart is empty", "emptySub": "Build a meal plan or open a recipe to fill it in one step.",
+    "fromSeller": "From {{seller}}", "deliveryTo": "Delivery area", "checkout": "Go to checkout",
+    "whatsapp": "Order by WhatsApp instead", "sellersNote_one": "Your order comes from {{count}} seller.", "sellersNote_other": "Your order comes from {{count}} sellers. Each delivers separately; you pay once.",
+    "summary": "Order summary", "changeSeller": "Seller", "fulfilment": "How do you want it?", "delivery": "Delivery", "collection": "Collect from seller",
+    "collectionNA": "{{seller}} does not offer collection; delivery applies.", "feesNote": "All known costs are shown. No service fee is added."
+  },
+  "checkout": {
+    "title": "Checkout", "steps": ["Details", "Review", "Payment"], "contact": "Your details", "name": "Full name",
+    "address": "Delivery address", "collectionInfo": "You'll collect from each seller's collection point.",
+    "district": "District", "sector": "Sector", "street": "Street, house number or landmark", "streetPh": "e.g. KG 11 Ave, near the market",
+    "review": "Review your order", "payment": "Payment method", "mtn": "MTN MoMo", "airtel": "Airtel Money",
+    "momoNumber": "Mobile money number", "momoHint": "The payment request goes to this phone. We never ask for your PIN.",
+    "invalidPhone": "Enter a Rwandan mobile number starting 078, 079, 072 or 073.", "providerMismatch": "This number looks like {{provider}}. Choose {{provider}} or use another number.",
+    "pay": "Pay {{amount}}", "placeWhatsApp": "Create WhatsApp order", "toReview": "Review order", "toPayment": "Continue to payment",
+    "errors": "Please fix {{count}} fields before continuing.",
+    "whatsappTitle": "Order by WhatsApp", "whatsappHow": "How WhatsApp ordering works",
+    "whatsappStep1": "We create your order and a message for each seller.", "whatsappStep2": "You send the message. The seller replies to confirm stock or suggest substitutions.",
+    "whatsappStep3": "The seller confirms in MealMatch, then you pay in the app.", "whatsappNote": "The order is not confirmed until the seller replies. Chat messages are not tracked by MealMatch.",
+    "preview": "Message preview", "send": "Open WhatsApp for {{seller}}", "sent": "Opened", "viewOrder": "View order"
+  },
+  "pay": {
+    "title": "Approve the payment on your phone", "sent": "A {{provider}} request for {{amount}} was sent to {{phone}}.",
+    "instruction": "Enter your PIN on your phone to approve. Never share your PIN with anyone.", "noPrompt": "No prompt? Dial {{ussd}} to see pending approvals.",
+    "waiting": "Waiting for {{provider}} to confirm…", "expiresIn": "Expires in {{time}}", "success": "Payment confirmed",
+    "successSub": "Your order is confirmed and the sellers have been notified.", "failed": "Payment not completed", "expired": "Payment request expired",
+    "cancelled": "Payment cancelled", "failedSub": "Nothing was charged. You can try again with the same or another number.",
+    "retry": "Try again", "viewOrder": "View order", "simulate": "Simulate a provider response", "approve": "Approved", "decline": "Declined", "timeout": "Expired",
+    "alreadyPending": "A payment for this order is already waiting for approval.", "paidAlready": "This order is already paid."
+  },
+  "order": {
+    "title": "Order {{number}}", "placed": "Placed {{date}}", "thanks": "Thank you — your order is confirmed.",
+    "orderStatus": "Order", "paymentStatus": "Payment", "tracking": "Progress", "history": "Status history", "none": "You have no orders yet.",
+    "status": { "pending_payment": "Waiting for payment", "awaiting_seller_confirmation": "Waiting for seller", "confirmed": "Confirmed", "completed": "Completed", "cancelled": "Cancelled" },
+    "seller": { "pending": "Not started", "accepted": "Accepted", "preparing": "Preparing", "ready": "Ready", "out_for_delivery": "On the way", "delivered": "Delivered", "collected": "Collected", "rejected": "Declined by seller" },
+    "payment": { "none": "Not started", "initiated": "Started", "pending": "Waiting for approval", "successful": "Paid", "failed": "Failed", "cancelled": "Cancelled", "expired": "Expired" },
+    "payNow": "Pay {{amount}}", "trackingNote": "Progress is updated by each seller. Live courier tracking is not available yet."
+  },
+  "gate": {
+    "title": "Sign in to use {{feature}}", "sub": "A free account saves your household, plans, pantry and orders so you can pick up on any device.",
+    "create": "Create a free account", "signIn": "I already have an account", "browse": "Keep browsing recipes",
+    "features": { "planner": "the meal planner", "cook": "Cook with what I have", "pantry": "your pantry", "market": "the market list", "checkout": "checkout", "account": "your account", "favorites": "saved recipes", "orders": "your orders" }
+  },
+  "auth": {
+    "signInTitle": "Sign in", "registerTitle": "Create your account", "subtitle": "Save your household, plans and orders.",
+    "phoneTab": "Phone", "emailTab": "Email", "phone": "Mobile number", "sendCode": "Send code", "code": "6-digit code",
+    "codeSent": "We sent a code to {{phone}}. (Prototype: any 6 digits work — no SMS is sent.)", "codeError": "Enter the 6-digit code.",
+    "verify": "Verify and continue", "changeNumber": "Change number", "email": "Email", "emailError": "Enter a valid email address.",
+    "password": "Password", "passwordHelp": "At least 8 characters.", "passwordError": "Use at least 8 characters.",
+    "confirmPassword": "Confirm password", "confirmError": "Passwords don't match.", "name": "Full name", "nameError": "Enter your name.",
+    "signIn": "Sign in", "register": "Create account", "noAccount": "New to MealMatch?", "createAccount": "Create an account",
+    "haveAccount": "Already have an account?", "notFound": "No account uses this number. Create one first.",
+    "invalid": "Email or password is incorrect.", "exists": "An account already uses this phone number or email. Sign in instead.",
+    "forgot": "Forgot password?", "resetTitle": "Reset your password", "resetSub": "Enter your email and we'll send a reset link.",
+    "resetSend": "Send reset link", "resetSent": "If an account exists for {{email}}, a reset link will be sent. (Prototype: no email is sent.)",
+    "terms": "By continuing you agree to the Terms and Privacy Policy.", "demo": "Reviewing the prototype?",
+    "demoD": "Sign in with phone 0788 000 101 (seller hub) or 0788 000 900 (admin).", "phoneEmailNote": "Add an email to sign in with a password later."
+  },
+  "account": {
+    "title": "My account", "profile": "Profile", "household": "Household", "orders": "My orders", "language": "Language",
+    "householdSummary": "{{adults}} adults · {{children}} children · {{budget}} a week", "notSet": "Not set up yet.",
+    "profileSaved": "Profile saved.", "memberSince": "Member"
+  },
+  "sellerHub": {
+    "title": "Seller hub", "overview": "Overview", "orders": "Orders", "offers": "Prices and stock",
+    "revenue": "Paid orders (sample)", "pending": "Orders to act on", "rating": "Rating", "nextPayout": "Next payout (estimate)",
+    "accept": "Accept", "reject": "Decline", "markPreparing": "Start preparing", "markReady": "Ready for collection", "markOut": "Out for delivery",
+    "markDelivered": "Mark delivered", "markCollected": "Mark collected", "confirmWhatsApp": "Confirm WhatsApp order",
+    "noOrders": "No orders yet. Orders placed in this browser appear here.", "updated": "Price and stock saved.", "lowStock": "Low stock",
+    "topDrivers": "Recipes that use your products", "commission": "Commission rate to be confirmed", "viewingAs": "Viewing as",
+    "product": "Product", "stock": "Stock", "marketRange": "Market estimate", "waitingPayment": "Waiting for customer payment"
+  },
+  "admin": {
+    "title": "Admin", "overview": "Overview", "sellers": "Seller verification", "prices": "Price moderation",
+    "gmv": "Order value (sample)", "activeSellers": "Active sellers", "plans": "Plans generated (sample)", "aiCost": "AI cost",
+    "aiCostNone": "Not connected", "approve": "Approve", "reject": "Reject", "documents": "{{count}} documents", "submitted": "Submitted {{date}}",
+    "source": "Source", "observed": "Observed", "range": "Range", "pending": "{{count}} waiting", "allDone": "Nothing waiting for review.",
+    "sources": { "seller": "Seller", "scout": "Price scout", "community": "Community" }, "product": "Product", "market": "Market", "tin": "TIN"
+  },
+  "allergens": { "peanuts": "Peanuts", "eggs": "Eggs", "dairy": "Milk", "fish": "Fish", "gluten": "Gluten" },
+  "footer": {
+    "about": "Smart MealMatch connects meal planning with grocery buying for households in Kigali.",
+    "explore": "Explore", "help": "Help", "company": "Company", "sell": "Sell on MealMatch", "rights": "© {{year}} Smart MealMatch. Prices in RWF."
+  },
+  "info": {
+    "about": { "title": "About Smart MealMatch", "body": "Smart MealMatch is a student project from the University of Rwanda, College of Science and Technology. It helps households decide what to cook, estimate what it will cost and buy the ingredients in the way that suits them.\n\nThis website is a prototype. Sellers, prices, ratings, chefs and payments are sample data while we test the idea with real users." },
+    "how": { "title": "How it works", "body": "1. Tell us about your household: how many people, your weekly budget in RWF, cooking time, preferences and allergies.\n\n2. We build a plan from local recipes that fit your answers and estimate the cost of every meal.\n\n3. We total the ingredients and subtract what you already have.\n\n4. You choose how to buy: a market list with price ranges, verified sellers with mobile-money payment, or a WhatsApp order the seller confirms." },
+    "faq": { "title": "Frequently asked questions", "q1": "Are the prices real?", "a1": "Not yet. This prototype uses sample prices. Each price shows its source (seller price or market estimate) and how old it is.", "q2": "Is the meal planner AI?", "a2": "The current planner uses rules: it filters recipes by your allergies, diet and time, then fits them to your budget. A language model will help with planning in a later version.", "q3": "How do I pay?", "a3": "MTN MoMo and Airtel Money are planned. In this prototype payments are simulated and no money is charged.", "q4": "Why do I need an account?", "a4": "Your household, plans, pantry and orders are saved to your account so they are there when you return.", "q5": "Who delivers my order?", "a5": "Each seller delivers their part of your order or lets you collect it. Delivery fees are sample values until sellers confirm them." },
+    "contact": { "title": "Contact", "body": "Smart MealMatch project team\nUniversity of Rwanda, College of Science and Technology, Kigali\n\nThis is a course prototype. Contact details for customer support will be added before any public launch." },
+    "privacy": { "title": "Privacy", "body": "In this prototype everything you enter is stored only in this browser. Nothing is sent to a server.\n\nWe never ask for or store mobile-money PINs. Passwords are stored as a one-way hash, never as text.\n\nA full privacy policy will be published before launch." },
+    "terms": { "title": "Terms of use", "body": "This website is a prototype for testing and coursework. Prices, sellers, products and payments are simulated and are not offers to sell. Full terms will be published before launch." },
+    "delivery": { "title": "Delivery and returns", "body": "Each seller delivers within Kigali (Gasabo, Kicukiro and Nyarugenge) or offers collection. Delivery fees and times shown are sample values.\n\nReturns and refunds policy: to be confirmed with sellers. Fresh food issues will be reported to the seller through your order page." }
+  },
+  "notFound": { "title": "We couldn't find that page", "back": "Back to home" }
+}

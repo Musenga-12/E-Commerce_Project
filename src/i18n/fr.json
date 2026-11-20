@@ -1,0 +1,256 @@
+{
+  "brand": { "name": "Smart MealMatch", "short": "MealMatch", "tagline": "Sachez quoi cuisiner, combien ça devrait coûter et où trouver les ingrédients." },
+  "nav": {
+    "home": "Accueil", "planner": "Planificateur", "recipes": "Recettes", "kits": "Kits repas", "shop": "Ingrédients", "chefs": "Chefs",
+    "cook": "Cuisiner avec ce que j'ai", "market": "Liste du marché", "pantry": "Garde-manger", "favorites": "Recettes enregistrées",
+    "cart": "Panier", "account": "Compte", "signIn": "Se connecter", "signOut": "Se déconnecter", "sellerHub": "Espace vendeur", "admin": "Admin",
+    "search": "Rechercher un ingrédient", "searchSubmit": "Rechercher", "language": "Langue", "menu": "Ouvrir le menu", "close": "Fermer",
+    "main": "Navigation principale", "mobile": "Navigation du site", "tabs": "Navigation rapide", "skip": "Aller au contenu principal", "homeLink": "Accueil Smart MealMatch",
+    "cartCount": "Panier, {{count}} articles"
+  },
+  "a11y": {
+    "decrease": "Diminuer {{label}}", "increase": "Augmenter {{label}}", "rating": "Note de {{value}} sur 5",
+    "loading": "Chargement", "save": "Enregistrer {{name}}", "unsave": "Retirer {{name}} des enregistrements", "chart": "Graphique en barres : {{label}}"
+  },
+  "mock": {
+    "label": "Simulé", "sample": "exemple", "sampleProfile": "Profil d'exemple", "sampleData": "Données d'exemple",
+    "verifiedMock": "Vérifié (simulé)", "notVerified": "Pas encore vérifié",
+    "banner": "Prototype : prix, vendeurs, notes et paiements sont simulés. Aucun argent réel n'est échangé.",
+    "assistant": "Aperçu : cet assistant comprend des phrases simples. Le vrai modèle d'IA n'est pas encore connecté.",
+    "payment": "Paiement simulé — aucune demande n'est envoyée à MTN ou Airtel et rien n'est débité.",
+    "fees": "Frais d'exemple — les tarifs de livraison doivent encore être confirmés par les vendeurs."
+  },
+  "price": {
+    "seller": "Prix vendeur", "estimate": "Estimation marché", "today": "Mis à jour aujourd'hui", "daysAgo_one": "Mis à jour il y a {{count}} jour",
+    "daysAgo_other": "Mis à jour il y a {{count}} jours", "was": "Avant", "from": "dès", "each": "l'unité", "range": "{{min}} – {{max}}"
+  },
+  "common": {
+    "addToCart": "Ajouter au panier", "added": "Ajouté au panier", "viewAll": "Tout voir", "back": "Retour", "save": "Enregistrer", "saved": "Enregistré",
+    "continue": "Continuer", "cancel": "Annuler", "remove": "Retirer", "edit": "Modifier", "min": "min", "minutes": "{{count}} min",
+    "serves": "Pour {{count}}", "reviews": "{{count}} avis", "inStock": "En stock", "lowStock": "Plus que {{count}}",
+    "outOfStock": "Rupture de stock", "total": "Total", "subtotal": "Sous-total", "delivery": "Livraison", "free": "Gratuit",
+    "items_one": "{{count}} article", "items_other": "{{count}} articles", "qty": "Quantité", "price": "Prix", "status": "Statut",
+    "or": "ou", "yes": "Oui", "no": "Non", "apply": "Appliquer", "reset": "Réinitialiser", "close": "Fermer", "learnMore": "En savoir plus",
+    "showResults": "Voir {{count}} résultats", "optional": "facultatif", "required": "Obligatoire", "tryAgain": "Réessayer",
+    "networkError": "Chargement impossible. Vérifiez votre connexion et réessayez."
+  },
+  "home": {
+    "eyebrow": "Repas et courses · Kigali",
+    "title": "Sachez quoi cuisiner, combien ça coûte et où l'acheter.",
+    "subtitle": "Indiquez votre budget et pour qui vous cuisinez. Nous planifions vos repas, totalisons les ingrédients et vous aidons à les acheter au marché, chez un vendeur ou via WhatsApp.",
+    "ctaPlan": "Planifier mes repas", "ctaCook": "Cuisiner avec ce que j'ai", "ctaBudget": "Planifier avec {{amount}} par semaine",
+    "heroAlt": "Légumes frais sur un étal de marché",
+    "howTitle": "Comment ça marche", "howSub": "Du budget à l'assiette en quatre étapes.",
+    "how1": "Indiquez budget et préférences", "how1d": "Taille du foyer, budget hebdomadaire en RWF, temps de cuisine, régime et allergies.",
+    "how2": "Recevez votre plan personnalisé", "how2d": "Des repas locaux et équilibrés qui respectent vos limites.",
+    "how3": "Voyez le coût des ingrédients", "how3d": "Chaque repas affiche un coût estimé, avec la source et l'âge du prix.",
+    "how4": "Achetez à votre façon", "how4d": "Au marché vous-même, chez des vendeurs vérifiés ou par WhatsApp.",
+    "plansTitle": "Plans populaires", "plansSub": "Des points de départ à ajuster en une minute.",
+    "planStudent": "Budget étudiant", "planStudentD": "1 personne · 7 jours · moins de 20 000 RWF",
+    "planFamily": "Semaine en famille", "planFamilyD": "4 personnes · 7 jours · 70 000 RWF",
+    "planQuick": "Dîners en 30 minutes", "planQuickD": "2 personnes · 5 jours · recettes rapides",
+    "planHealthy": "Semaine végétarienne", "planHealthyD": "2 personnes · 7 jours · végétal",
+    "usePlan": "Utiliser ce plan",
+    "cookTitle": "Vous avez déjà des ingrédients ?", "cookSub": "Dites-nous ce que contient votre cuisine. Nous proposons des repas et vous n'achetez que ce qui manque — moins de gaspillage, moins de dépenses.",
+    "cookExampleHave": "Vous avez", "cookExampleMake": "Vous pouvez cuisiner", "cookExampleBuy": "Achetez seulement",
+    "recipesTitle": "Recettes populaires", "kitsTitle": "Kits repas", "kitsSub": "Tous les ingrédients d'un plat, mesurés et emballés.",
+    "buyTitle": "Trois façons d'acheter", "buySub": "Choisissez selon votre journée. Le plan reste le même ; seuls les achats changent.",
+    "sellersTitle": "Comparez des vendeurs vérifiés", "sellersSub": "Voyez le prix, les frais de livraison, la note et la date de mise à jour de chaque vendeur.",
+    "chefsTitle": "Recettes de cuisiniers locaux", "chefsSub": "Cuisiniers amateurs et nutritionnistes partagent les plats qu'ils préparent vraiment.",
+    "communityTitle": "Ce que disent nos premiers testeurs", "communitySub": "Avis d'exemple rédigés pour ce prototype. De vrais avis les remplaceront après les tests utilisateurs.",
+    "quote1": "Je sais enfin combien coûtera ma semaine avant d'aller au marché.", "quote1by": "Étudiant, Huye (exemple)",
+    "quote2": "Choisir les dîners pour cinq personnes me prenait une heure chaque dimanche.", "quote2by": "Parent, Kicukiro (exemple)",
+    "quote3": "N'acheter que les ingrédients manquants m'a fait économiser dès la première semaine.", "quote3by": "Jeune professionnelle, Remera (exemple)"
+  },
+  "buy": {
+    "market": "Liste du marché", "marketD": "Fourchettes de prix par rayon et liste à cocher. Faites vos courses vous-même.",
+    "sellers": "Vendeurs vérifiés", "sellersD": "Choisissez selon le prix, la note et la livraison. Payez avec MTN MoMo ou Airtel Money.",
+    "whatsapp": "Commande WhatsApp", "whatsappD": "Envoyez votre liste à un vendeur par chat. Le vendeur confirme la disponibilité avant le paiement."
+  },
+  "shop": {
+    "title": "Ingrédients", "sub": "Prix des vendeurs de Kigali. Comparez avant d'acheter.", "all": "Tout",
+    "sort": "Trier par", "sortFeatured": "Recommandés", "sortPriceAsc": "Prix croissant", "sortPriceDesc": "Prix décroissant", "sortRating": "Note du vendeur",
+    "results_one": "{{count}} produit", "results_other": "{{count}} produits", "empty": "Aucun produit ne correspond à ces filtres.",
+    "emptySub": "Retirez un filtre ou cherchez un autre ingrédient.", "sellers_one": "{{count}} vendeur", "sellers_other": "{{count}} vendeurs",
+    "searchFor": "Résultats pour « {{q}} »"
+  },
+  "filters": {
+    "title": "Filtres", "open": "Filtres", "category": "Catégorie", "price": "Prix (meilleure offre)", "min": "Minimum RWF", "max": "Maximum RWF",
+    "seller": "Vendeur", "availability": "Disponibilité", "inStockOnly": "En stock uniquement", "rating": "Note du vendeur", "rating45": "4,5 et plus", "any": "Toutes",
+    "clear": "Tout effacer", "active_one": "{{count}} filtre", "active_other": "{{count}} filtres"
+  },
+  "product": {
+    "compare": "Choisir un vendeur", "compareSub": "Même produit, plusieurs vendeurs. Prix et frais sont fixés par chaque vendeur.",
+    "deliverTo": "Livraison à", "eta": "environ {{hours}} h", "cheapest": "Prix le plus bas", "marketTitle": "Vous achetez au marché ?",
+    "marketSub": "Fourchette habituelle au marché à Kigali. C'est une estimation, pas un prix vendeur.", "allergens": "Contient",
+    "usedIn": "Utilisé dans ces recettes", "kitContents": "Contenu", "cookThis": "Voir la recette", "stockLeft": "{{count}} en stock",
+    "selected": "Sélectionné", "seller": "Vendu par", "collection": "Retrait possible", "description": "À propos de ce produit"
+  },
+  "sellerProfile": {
+    "since": "Vend depuis {{year}}", "products": "Produits de {{name}}", "collectionAt": "Retrait : {{place}}",
+    "noCollection": "Livraison uniquement", "deliveryFees": "Frais de livraison", "whatVerified": "Que signifie « vérifié » ?",
+    "whatVerifiedD": "Les vendeurs vérifiés verront leur enregistrement et leur étal contrôlés par l'équipe MealMatch. Dans ce prototype, le badge est une donnée d'exemple."
+  },
+  "recipes": {
+    "title": "Recettes", "subtitle": "Chaque recette affiche son coût estimé et ajoute ses ingrédients au panier en un geste.",
+    "search": "Rechercher une recette", "ingredients": "Ingrédients", "method": "Préparation", "servings": "Portions",
+    "addAll": "Ajouter tous les ingrédients", "addMissing": "Ajouter ce qui me manque", "estCost": "Coût estimé", "perServing": "{{amount}} par portion",
+    "prep": "Préparation", "cook": "Cuisson", "difficulty": "Difficulté", "easy": "Facile", "medium": "Moyen", "view": "Voir la recette",
+    "inPantry": "dans votre garde-manger", "available": "Disponible", "unavailable": "Indisponible",
+    "allergyWarning": "Contient {{list}}, présent dans vos allergies.", "substitutions": "Substitutions", "insteadOf": "{{alt}} au lieu de {{orig}}",
+    "by": "Par {{name}}", "costNote": "Estimation pour la quantité utilisée, au prix vendeur le plus bas. Acheter des paquets entiers peut coûter plus.",
+    "tags": { "traditional": "Traditionnel", "vegetarian": "Végétarien", "budget": "Économique", "quick": "Rapide", "protein": "Riche en protéines", "family": "Familial" },
+    "filterAll": "Toutes", "empty": "Aucune recette ne correspond.", "saved": "Recettes enregistrées", "savedEmpty": "Touchez le cœur d'une recette pour l'enregistrer ici.",
+    "ratingsNote": "Les notes sont des données d'exemple en attendant de vrais avis."
+  },
+  "chefs": {
+    "title": "Chefs et créateurs", "sub": "Des cuisiniers locaux qui partagent leurs recettes. Profils d'exemple pour le prototype.",
+    "recipes_one": "{{count}} recette", "recipes_other": "{{count}} recettes", "view": "Voir le profil", "recipesBy": "Recettes de {{name}}"
+  },
+  "kits": {
+    "title": "Kits repas", "sub": "Ingrédients préemballés pour un plat ou une semaine, par des vendeurs vérifiés.",
+    "serves": "Pour {{count}}", "includes": "Contient {{list}}", "view": "Voir le kit"
+  },
+  "planner": {
+    "title": "Votre plan de repas", "setupTitle": "Planifiez vos repas", "setupSub": "Quelques questions. Vous pouvez modifier chaque réponse avant la création du plan.",
+    "step": "Étape {{n}} sur {{total}}", "stepLabels": ["Foyer", "Budget", "Temps et jours", "Goûts", "Cuisine", "Vérification"],
+    "householdType": "Pour qui planifiez-vous ?",
+    "types": { "student": "Moi seul·e — étudiant·e", "professional": "Moi ou un couple — actifs", "family": "Une famille", "shared": "Colocation" },
+    "adults": "Adultes", "children": "Enfants (moins de 12 ans)", "budget": "Budget alimentaire hebdomadaire", "budgetHelp": "Il est calculé au prorata si vous planifiez moins de 7 jours.",
+    "budgetError": "Indiquez un budget entre 5 000 et 500 000 RWF.", "time": "Temps de cuisine maximum par repas",
+    "days": "Combien de jours planifier ?", "meals": "Quels repas ?", "mealsError": "Choisissez au moins un repas.",
+    "diet": "Préférences alimentaires", "likes": "Plats que vous aimez", "vegetarian": "Uniquement végétarien", "allergies": "Allergies et aliments à éviter",
+    "kitchen": "Ingrédients que vous avez déjà", "kitchenHelp": "Nous les retirons de votre liste de courses.", "usePantry": "Utiliser mon garde-manger",
+    "pantryCount_one": "{{count}} article dans votre garde-manger", "pantryCount_other": "{{count}} articles dans votre garde-manger", "editPantry": "Modifier le garde-manger",
+    "review": "Vérifiez vos réponses", "generate": "Créer mon plan", "regenerate": "Proposer un autre plan", "swap": "Changer de plat",
+    "editProfile": "Modifier les réponses", "budgetPanel": "Budget", "planned": "Repas planifiés", "remaining": "Reste", "over": "Dépassement",
+    "overBy": "Dépasse le budget de {{amount}}", "budgetFor": "Budget pour {{days}} jours : {{amount}}",
+    "shoppingTitle": "Courses pour ce plan", "shoppingSub_one": "{{count}} article à acheter après le garde-manger", "shoppingSub_other": "{{count}} articles à acheter après le garde-manger",
+    "leftoverNote": "Les magasins vendent des paquets entiers : le total des courses peut dépasser le coût des repas. La différence reste dans votre cuisine.",
+    "buyEverything": "Acheter chez les vendeurs", "strategy": "Choix des vendeurs", "strategies": { "cheapest": "Prix le plus bas", "fewest": "Moins de vendeurs" },
+    "marketMode": "Faire le marché à la place", "whatsapp": "Commander par WhatsApp", "lunch": "Déjeuner", "dinner": "Dîner",
+    "days7": ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"],
+    "portion": "{{count}} portions", "noRecipes": "Aucune recette ne correspond à vos réponses.", "noRecipesSub": "Autorisez plus de temps de cuisine ou retirez une restriction.",
+    "lowVariety": "Seules {{count}} recettes correspondent, certains repas se répètent. Plus de temps de cuisine apporte de la variété.",
+    "assistant": "Décrivez votre semaine", "assistantHint": "ex. Famille de 5, 50 000 RWF, sans poisson, 45 minutes, 5 jours", "assistantApply": "Mettre à jour",
+    "assistantUpdated": "Plan mis à jour selon votre description.", "addedToCart_one": "{{count}} article ajouté au panier", "addedToCart_other": "{{count}} articles ajoutés au panier",
+    "costPerMeal": "≈ {{amount}}", "subs": "Remplacer un ingrédient", "servingsNote": "Quantités pour {{count}} portions"
+  },
+  "cook": {
+    "title": "Cuisiner avec ce que j'ai", "subtitle": "Ajoutez ce que vous avez. Nous montrons les plats possibles et vous n'achetez que ce qui manque.",
+    "searchLabel": "Ajouter un ingrédient", "searchPh": "Rechercher, ex. riz, tomates, œufs", "noMatch": "Aucun ingrédient ne correspond à « {{q}} ».",
+    "common": "Ingrédients courants", "yourIngredients": "Dans ma cuisine", "none": "Rien d'ajouté pour l'instant.", "usePantry": "Ajouter mon garde-manger", "clear": "Tout effacer",
+    "staples": "Nous supposons que vous avez du sel et de l'huile.", "readyNow": "Vous pouvez le cuisiner maintenant", "match": "Vous avez {{have}} sur {{total}}",
+    "missing": "Manque : {{list}}", "empty": "Ajoutez quelques ingrédients pour voir les plats possibles.",
+    "buyMissing": "Acheter ce qui manque · {{amount}}", "savings": "Utiliser ce que vous avez économise environ {{amount}} par rapport à tout acheter.",
+    "photoTitle": "Reconnaissance photo", "photoSoon": "Prévu plus tard — l'application ne lit pas encore les photos."
+  },
+  "market": {
+    "title": "Liste du marché", "subtitle": "Votre liste avec les prix attendus au marché, par rayon. Cochez au fur et à mesure.",
+    "market": "Marché", "source": "Liste issue de", "sourcePlan": "Mon plan de repas", "sourceCart": "Mon panier",
+    "estimate": "Total prévu", "checked": "{{done}} sur {{total}} achetés", "spent": "Dépense estimée jusqu'ici",
+    "sections": { "produce": "Fruits et légumes", "grains": "Céréales et légumineuses", "butchery": "Viande et poisson", "dairy": "Laitages et œufs", "groceries": "Épicerie" },
+    "empty": "Créez un plan ou ajoutez des articles au panier pour obtenir une liste du marché.",
+    "priceNote": "Les fourchettes sont des estimations issues de données d'exemple. Elles viendront ensuite des vendeurs, des relevés de prix et des moyennes hebdomadaires.",
+    "reset": "Tout décocher"
+  },
+  "pantry": {
+    "title": "Garde-manger", "subtitle": "Ce que vous avez déjà est retiré de chaque liste de courses.",
+    "add": "Ajouter", "item": "Ingrédient", "useSoon": "À consommer vite", "expires": "À consommer avant le {{date}}", "empty": "Votre garde-manger est vide.",
+    "emptySub": "Ajoutez riz, farine, huile ou tout ce que vous gardez chez vous.", "expiry": "Date limite"
+  },
+  "cart": {
+    "title": "Panier", "empty": "Votre panier est vide", "emptySub": "Créez un plan ou ouvrez une recette pour le remplir en un geste.",
+    "fromSeller": "Chez {{seller}}", "deliveryTo": "Zone de livraison", "checkout": "Passer au paiement",
+    "whatsapp": "Commander par WhatsApp", "sellersNote_one": "Votre commande vient de {{count}} vendeur.", "sellersNote_other": "Votre commande vient de {{count}} vendeurs. Chacun livre séparément ; vous payez une fois.",
+    "summary": "Récapitulatif", "changeSeller": "Vendeur", "fulfilment": "Comment voulez-vous la recevoir ?", "delivery": "Livraison", "collection": "Retrait chez le vendeur",
+    "collectionNA": "{{seller}} ne propose pas de retrait ; la livraison s'applique.", "feesNote": "Tous les coûts connus sont affichés. Aucun frais de service n'est ajouté."
+  },
+  "checkout": {
+    "title": "Paiement", "steps": ["Coordonnées", "Vérification", "Paiement"], "contact": "Vos coordonnées", "name": "Nom complet",
+    "address": "Adresse de livraison", "collectionInfo": "Vous retirerez chez chaque vendeur, à son point de retrait.",
+    "district": "District", "sector": "Secteur", "street": "Rue, numéro ou point de repère", "streetPh": "ex. KG 11 Ave, près du marché",
+    "review": "Vérifiez votre commande", "payment": "Moyen de paiement", "mtn": "MTN MoMo", "airtel": "Airtel Money",
+    "momoNumber": "Numéro mobile money", "momoHint": "La demande de paiement arrive sur ce téléphone. Nous ne demandons jamais votre code PIN.",
+    "invalidPhone": "Saisissez un numéro rwandais commençant par 078, 079, 072 ou 073.", "providerMismatch": "Ce numéro semble être {{provider}}. Choisissez {{provider}} ou un autre numéro.",
+    "pay": "Payer {{amount}}", "placeWhatsApp": "Créer la commande WhatsApp", "toReview": "Vérifier la commande", "toPayment": "Continuer vers le paiement",
+    "errors": "Corrigez {{count}} champs avant de continuer.",
+    "whatsappTitle": "Commander par WhatsApp", "whatsappHow": "Comment fonctionne la commande WhatsApp",
+    "whatsappStep1": "Nous créons votre commande et un message pour chaque vendeur.", "whatsappStep2": "Vous envoyez le message. Le vendeur confirme le stock ou propose des substitutions.",
+    "whatsappStep3": "Le vendeur confirme dans MealMatch, puis vous payez dans l'application.", "whatsappNote": "La commande n'est confirmée qu'après la réponse du vendeur. MealMatch ne suit pas les messages du chat.",
+    "preview": "Aperçu du message", "send": "Ouvrir WhatsApp pour {{seller}}", "sent": "Ouvert", "viewOrder": "Voir la commande"
+  },
+  "pay": {
+    "title": "Validez le paiement sur votre téléphone", "sent": "Une demande {{provider}} de {{amount}} a été envoyée au {{phone}}.",
+    "instruction": "Saisissez votre code PIN sur votre téléphone. Ne partagez jamais votre PIN.", "noPrompt": "Pas de demande ? Composez {{ussd}} pour voir les validations en attente.",
+    "waiting": "En attente de la confirmation de {{provider}}…", "expiresIn": "Expire dans {{time}}", "success": "Paiement confirmé",
+    "successSub": "Votre commande est confirmée et les vendeurs ont été prévenus.", "failed": "Paiement non effectué", "expired": "Demande de paiement expirée",
+    "cancelled": "Paiement annulé", "failedSub": "Rien n'a été débité. Vous pouvez réessayer avec le même numéro ou un autre.",
+    "retry": "Réessayer", "viewOrder": "Voir la commande", "simulate": "Simuler une réponse de l'opérateur", "approve": "Validé", "decline": "Refusé", "timeout": "Expiré",
+    "alreadyPending": "Un paiement pour cette commande attend déjà une validation.", "paidAlready": "Cette commande est déjà payée."
+  },
+  "order": {
+    "title": "Commande {{number}}", "placed": "Passée le {{date}}", "thanks": "Merci — votre commande est confirmée.",
+    "orderStatus": "Commande", "paymentStatus": "Paiement", "tracking": "Avancement", "history": "Historique", "none": "Vous n'avez pas encore de commande.",
+    "status": { "pending_payment": "En attente de paiement", "awaiting_seller_confirmation": "En attente du vendeur", "confirmed": "Confirmée", "completed": "Terminée", "cancelled": "Annulée" },
+    "seller": { "pending": "Pas commencée", "accepted": "Acceptée", "preparing": "En préparation", "ready": "Prête", "out_for_delivery": "En route", "delivered": "Livrée", "collected": "Retirée", "rejected": "Refusée par le vendeur" },
+    "payment": { "none": "Pas commencé", "initiated": "Lancé", "pending": "En attente de validation", "successful": "Payé", "failed": "Échoué", "cancelled": "Annulé", "expired": "Expiré" },
+    "payNow": "Payer {{amount}}", "trackingNote": "L'avancement est mis à jour par chaque vendeur. Le suivi en direct du livreur n'est pas encore disponible."
+  },
+  "gate": {
+    "title": "Connectez-vous pour utiliser {{feature}}", "sub": "Un compte gratuit enregistre votre foyer, vos plans, votre garde-manger et vos commandes sur tous vos appareils.",
+    "create": "Créer un compte gratuit", "signIn": "J'ai déjà un compte", "browse": "Continuer à parcourir les recettes",
+    "features": { "planner": "le planificateur", "cook": "« Cuisiner avec ce que j'ai »", "pantry": "votre garde-manger", "market": "la liste du marché", "checkout": "le paiement", "account": "votre compte", "favorites": "les recettes enregistrées", "orders": "vos commandes" }
+  },
+  "auth": {
+    "signInTitle": "Se connecter", "registerTitle": "Créer votre compte", "subtitle": "Enregistrez votre foyer, vos plans et vos commandes.",
+    "phoneTab": "Téléphone", "emailTab": "E-mail", "phone": "Numéro mobile", "sendCode": "Envoyer le code", "code": "Code à 6 chiffres",
+    "codeSent": "Code envoyé au {{phone}}. (Prototype : 6 chiffres au choix — aucun SMS n'est envoyé.)", "codeError": "Saisissez le code à 6 chiffres.",
+    "verify": "Vérifier et continuer", "changeNumber": "Changer de numéro", "email": "E-mail", "emailError": "Saisissez une adresse e-mail valide.",
+    "password": "Mot de passe", "passwordHelp": "Au moins 8 caractères.", "passwordError": "Utilisez au moins 8 caractères.",
+    "confirmPassword": "Confirmer le mot de passe", "confirmError": "Les mots de passe ne correspondent pas.", "name": "Nom complet", "nameError": "Saisissez votre nom.",
+    "signIn": "Se connecter", "register": "Créer le compte", "noAccount": "Nouveau sur MealMatch ?", "createAccount": "Créer un compte",
+    "haveAccount": "Déjà un compte ?", "notFound": "Aucun compte n'utilise ce numéro. Créez-en un d'abord.",
+    "invalid": "E-mail ou mot de passe incorrect.", "exists": "Un compte utilise déjà ce numéro ou cet e-mail. Connectez-vous.",
+    "forgot": "Mot de passe oublié ?", "resetTitle": "Réinitialiser le mot de passe", "resetSub": "Saisissez votre e-mail, nous vous enverrons un lien.",
+    "resetSend": "Envoyer le lien", "resetSent": "Si un compte existe pour {{email}}, un lien sera envoyé. (Prototype : aucun e-mail n'est envoyé.)",
+    "terms": "En continuant, vous acceptez les Conditions et la Politique de confidentialité.", "demo": "Vous évaluez le prototype ?",
+    "demoD": "Connectez-vous avec le 0788 000 101 (espace vendeur) ou le 0788 000 900 (admin).", "phoneEmailNote": "Ajoutez un e-mail pour vous connecter plus tard avec un mot de passe."
+  },
+  "account": {
+    "title": "Mon compte", "profile": "Profil", "household": "Foyer", "orders": "Mes commandes", "language": "Langue",
+    "householdSummary": "{{adults}} adultes · {{children}} enfants · {{budget}} par semaine", "notSet": "Pas encore configuré.",
+    "profileSaved": "Profil enregistré.", "memberSince": "Membre"
+  },
+  "sellerHub": {
+    "title": "Espace vendeur", "overview": "Vue d'ensemble", "orders": "Commandes", "offers": "Prix et stock",
+    "revenue": "Commandes payées (exemple)", "pending": "Commandes à traiter", "rating": "Note", "nextPayout": "Prochain versement (estimation)",
+    "accept": "Accepter", "reject": "Refuser", "markPreparing": "Commencer la préparation", "markReady": "Prête pour le retrait", "markOut": "En livraison",
+    "markDelivered": "Marquer livrée", "markCollected": "Marquer retirée", "confirmWhatsApp": "Confirmer la commande WhatsApp",
+    "noOrders": "Aucune commande. Les commandes passées dans ce navigateur apparaissent ici.", "updated": "Prix et stock enregistrés.", "lowStock": "Stock faible",
+    "topDrivers": "Recettes utilisant vos produits", "commission": "Taux de commission à confirmer", "viewingAs": "Vu en tant que",
+    "product": "Produit", "stock": "Stock", "marketRange": "Estimation marché", "waitingPayment": "En attente du paiement client"
+  },
+  "admin": {
+    "title": "Admin", "overview": "Vue d'ensemble", "sellers": "Vérification des vendeurs", "prices": "Modération des prix",
+    "gmv": "Valeur des commandes (exemple)", "activeSellers": "Vendeurs actifs", "plans": "Plans générés (exemple)", "aiCost": "Coût de l'IA",
+    "aiCostNone": "Non connecté", "approve": "Approuver", "reject": "Rejeter", "documents": "{{count}} documents", "submitted": "Soumis le {{date}}",
+    "source": "Source", "observed": "Relevé", "range": "Fourchette", "pending": "{{count}} en attente", "allDone": "Rien à vérifier.",
+    "sources": { "seller": "Vendeur", "scout": "Releveur de prix", "community": "Communauté" }, "product": "Produit", "market": "Marché", "tin": "NIF"
+  },
+  "allergens": { "peanuts": "Arachides", "eggs": "Œufs", "dairy": "Lait", "fish": "Poisson", "gluten": "Gluten" },
+  "footer": {
+    "about": "Smart MealMatch relie la planification des repas aux courses pour les foyers de Kigali.",
+    "explore": "Explorer", "help": "Aide", "company": "Entreprise", "sell": "Vendre sur MealMatch", "rights": "© {{year}} Smart MealMatch. Prix en RWF."
+  },
+  "info": {
+    "about": { "title": "À propos de Smart MealMatch", "body": "Smart MealMatch est un projet étudiant de l'Université du Rwanda, Collège des sciences et technologies. Il aide les foyers à décider quoi cuisiner, à estimer le coût et à acheter les ingrédients comme ils le souhaitent.\n\nCe site est un prototype. Vendeurs, prix, notes, chefs et paiements sont des données d'exemple pendant que nous testons l'idée avec de vrais utilisateurs." },
+    "how": { "title": "Comment ça marche", "body": "1. Décrivez votre foyer : nombre de personnes, budget hebdomadaire en RWF, temps de cuisine, préférences et allergies.\n\n2. Nous créons un plan à partir de recettes locales adaptées et estimons le coût de chaque repas.\n\n3. Nous totalisons les ingrédients et retirons ce que vous avez déjà.\n\n4. Vous choisissez comment acheter : liste du marché avec fourchettes de prix, vendeurs vérifiés avec paiement mobile money, ou commande WhatsApp confirmée par le vendeur." },
+    "faq": { "title": "Questions fréquentes", "q1": "Les prix sont-ils réels ?", "a1": "Pas encore. Ce prototype utilise des prix d'exemple. Chaque prix indique sa source (prix vendeur ou estimation marché) et son ancienneté.", "q2": "Le planificateur utilise-t-il l'IA ?", "a2": "Le planificateur actuel suit des règles : il filtre les recettes selon vos allergies, votre régime et votre temps, puis les ajuste à votre budget. Un modèle de langage aidera dans une version ultérieure.", "q3": "Comment payer ?", "a3": "MTN MoMo et Airtel Money sont prévus. Dans ce prototype, les paiements sont simulés et rien n'est débité.", "q4": "Pourquoi un compte ?", "a4": "Votre foyer, vos plans, votre garde-manger et vos commandes sont enregistrés dans votre compte.", "q5": "Qui livre ma commande ?", "a5": "Chaque vendeur livre sa partie ou propose un retrait. Les frais de livraison sont des exemples en attendant la confirmation des vendeurs." },
+    "contact": { "title": "Contact", "body": "Équipe du projet Smart MealMatch\nUniversité du Rwanda, Collège des sciences et technologies, Kigali\n\nCeci est un prototype de cours. Les coordonnées du service client seront ajoutées avant tout lancement public." },
+    "privacy": { "title": "Confidentialité", "body": "Dans ce prototype, tout ce que vous saisissez reste dans ce navigateur. Rien n'est envoyé à un serveur.\n\nNous ne demandons ni ne conservons jamais de code PIN mobile money. Les mots de passe sont stockés sous forme de hachage irréversible, jamais en clair.\n\nUne politique complète sera publiée avant le lancement." },
+    "terms": { "title": "Conditions d'utilisation", "body": "Ce site est un prototype pour des tests et un travail de cours. Prix, vendeurs, produits et paiements sont simulés et ne constituent pas des offres de vente. Les conditions complètes seront publiées avant le lancement." },
+    "delivery": { "title": "Livraison et retours", "body": "Chaque vendeur livre dans Kigali (Gasabo, Kicukiro et Nyarugenge) ou propose un retrait. Les frais et délais affichés sont des exemples.\n\nPolitique de retours et remboursements : à confirmer avec les vendeurs. Les problèmes de produits frais seront signalés au vendeur depuis la page de la commande." }
+  },
+  "notFound": { "title": "Page introuvable", "back": "Retour à l'accueil" }
+}

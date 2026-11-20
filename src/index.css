@@ -1,0 +1,94 @@
+@import "tailwindcss";
+
+/* ---- Design tokens ----------------------------------------------------
+   Contrast checked against WCAG 2.2 AA (see README → Design system). */
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Fraunces", ui-serif, Georgia, serif;
+
+  /* Warm neutrals */
+  --color-canvas: #faf7f2;
+  --color-surface: #ffffff;
+  --color-sunken: #f3eee6;
+  --color-line: #e9e2d6;        /* decorative dividers only */
+  --color-line-strong: #8f8473; /* form-control borders: 3.4:1 on canvas */
+  --color-ink: #1c1a17;
+  --color-ink-soft: #3d3933;
+  --color-muted: #6f675c;       /* 5.2:1 on canvas */
+
+  /* Primary: leaf green */
+  --color-brand-50: #eef5f1;
+  --color-brand-100: #d6e8de;
+  --color-brand-200: #aed1bd;
+  --color-brand-500: #2d7a59;
+  --color-brand-600: #1f5f45;
+  --color-brand-700: #184c37;
+  --color-brand-900: #0e2e21;
+  /* Secondary: clay (Rwandan earth, used for traditional / estimate labels) */
+  --color-clay-50: #f8efe9;
+  --color-clay-600: #9a4a26;
+  /* Accent: saffron — highlights only, never body text */
+  --color-accent-50: #fdf5e7;
+  --color-accent-100: #f9e6c2;
+  --color-accent-500: #e8a33d;
+  --color-accent-700: #8a5410;
+
+  /* Feedback */
+  --color-success: #2d7a59;
+  --color-danger: #c0392b;
+  --color-danger-50: #fbecea;
+
+  /* Channels */
+  --color-mtn: #ffcb05;
+  --color-airtel: #e40000;
+  --color-whatsapp: #0b7a3e; /* darkened from brand green for 5.4:1 with white */
+
+  --radius-card: 0.875rem;
+  --radius-media: 0.75rem;
+  --shadow-soft: 0 1px 2px rgb(28 26 23 / 0.05), 0 4px 16px -8px rgb(28 26 23 / 0.10);
+
+  --animate-fade-up: fade-up 0.25s ease-out both;
+  --animate-pulse-ring: pulse-ring 1.6s ease-out infinite;
+}
+
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes pulse-ring {
+  0% { transform: scale(0.9); opacity: 0.6; }
+  100% { transform: scale(1.5); opacity: 0; }
+}
+
+/* ---- Base ------------------------------------------------------------- */
+@layer base {
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    @apply bg-canvas text-ink font-sans antialiased;
+    font-feature-settings: "cv11", "ss01";
+  }
+  h1, h2, h3 { @apply text-ink; text-wrap: balance; }
+  :focus-visible { @apply outline-2 outline-offset-2 outline-brand-600; }
+  ::selection { @apply bg-brand-100; }
+  dialog::backdrop { background: rgb(28 26 23 / 0.45); }
+}
+
+@layer components {
+  .container-page { @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8; }
+  .card { @apply rounded-card border border-line bg-surface shadow-soft; }
+  .eyebrow { @apply text-xs font-semibold uppercase tracking-[0.12em] text-brand-600; }
+  .field {
+    @apply w-full rounded-lg border border-line-strong bg-surface px-3.5 py-2.5 text-sm text-ink
+      placeholder:text-muted transition focus:border-brand-600 focus:ring-4 focus:ring-brand-100 focus:outline-none
+      aria-invalid:border-danger;
+  }
+  .label { @apply mb-1.5 block text-sm font-medium text-ink-soft; }
+  .help { @apply mt-1.5 block text-xs text-muted; }
+  .error-text { @apply mt-1.5 block text-xs font-medium text-danger; }
+  .tabular { font-variant-numeric: tabular-nums; }
+  .link { @apply font-semibold text-brand-600 underline-offset-4 hover:underline; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
+}

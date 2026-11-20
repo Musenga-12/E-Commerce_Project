@@ -1,0 +1,256 @@
+{
+  "brand": { "name": "Smart MealMatch", "short": "MealMatch", "tagline": "Menya icyo uteka, icyo gikwiye gutwara, n'aho wabona ibikoresho." },
+  "nav": {
+    "home": "Ahabanza", "planner": "Gutegura amafunguro", "recipes": "Uko bateka", "kits": "Ibikoresho by'ifunguro", "shop": "Hahira ibikoresho", "chefs": "Abatetsi",
+    "cook": "Teka ibyo ufite", "market": "Urutonde rw'isoko", "pantry": "Ububiko", "favorites": "Ibyo nabitse",
+    "cart": "Agaseke", "account": "Konti", "signIn": "Injira", "signOut": "Sohoka", "sellerHub": "Abacuruzi", "admin": "Ubuyobozi",
+    "search": "Shakisha ibikoresho", "searchSubmit": "Shakisha", "language": "Ururimi", "menu": "Fungura menu", "close": "Funga",
+    "main": "Inzira nyamukuru", "mobile": "Inzira z'urubuga", "tabs": "Inzira zihuse", "skip": "Jya ku bikubiyemo", "homeLink": "Ahabanza ha Smart MealMatch",
+    "cartCount": "Agaseke, ibintu {{count}}"
+  },
+  "a11y": {
+    "decrease": "Gabanya {{label}}", "increase": "Ongera {{label}}", "rating": "Amanota {{value}} kuri 5",
+    "loading": "Biratunganywa", "save": "Bika {{name}}", "unsave": "Kura {{name}} mu byo wabitse", "chart": "Igishushanyo: {{label}}"
+  },
+  "mock": {
+    "label": "Igerageza", "sample": "urugero", "sampleProfile": "Umwirondoro w'urugero", "sampleData": "Amakuru y'urugero",
+    "verifiedMock": "Yemejwe (igerageza)", "notVerified": "Ntaremezwa",
+    "banner": "Igerageza: ibiciro, abacuruzi, amanota no kwishyura ni iby'icyitegererezo. Nta mafaranga nyayo akoreshwa.",
+    "assistant": "Igerageza: uyu mufasha yumva interuro zoroshye. Ubwenge buhangano nyabwo ntiburahuzwa.",
+    "payment": "Kwishyura kw'igerageza — nta busabe bwoherezwa kuri MTN cyangwa Airtel kandi nta mafaranga akurwaho.",
+    "fees": "Amafaranga y'urugero — ibiciro byo kugeza ibintu bizemezwa n'abacuruzi."
+  },
+  "price": {
+    "seller": "Igiciro cy'umucuruzi", "estimate": "Igiciro giteganyijwe ku isoko", "today": "Byavuguruwe uyu munsi", "daysAgo_one": "Byavuguruwe hashize umunsi {{count}}",
+    "daysAgo_other": "Byavuguruwe hashize iminsi {{count}}", "was": "Cyari", "from": "guhera", "each": "kimwe", "range": "{{min}} – {{max}}"
+  },
+  "common": {
+    "addToCart": "Shyira mu gaseke", "added": "Byashyizwe mu gaseke", "viewAll": "Reba byose", "back": "Subira inyuma", "save": "Bika", "saved": "Byabitswe",
+    "continue": "Komeza", "cancel": "Reka", "remove": "Kuramo", "edit": "Hindura", "min": "umun.", "minutes": "Iminota {{count}}",
+    "serves": "Abantu {{count}}", "reviews": "Ibitekerezo {{count}}", "inStock": "Birahari", "lowStock": "Hasigaye {{count}} gusa",
+    "outOfStock": "Byashize", "total": "Igiteranyo", "subtotal": "Igiteranyo gito", "delivery": "Kugeza", "free": "Ubuntu",
+    "items_one": "Ikintu {{count}}", "items_other": "Ibintu {{count}}", "qty": "Ingano", "price": "Igiciro", "status": "Uko bihagaze",
+    "or": "cyangwa", "yes": "Yego", "no": "Oya", "apply": "Emeza", "reset": "Subiramo", "close": "Funga", "learnMore": "Menya byinshi",
+    "showResults": "Erekana ibisubizo {{count}}", "optional": "si ngombwa", "required": "Birakenewe", "tryAgain": "Ongera ugerageze",
+    "networkError": "Ntibyashobotse gufunguka. Reba murandasi yawe wongere ugerageze."
+  },
+  "home": {
+    "eyebrow": "Gutegura amafunguro no guhaha · Kigali",
+    "title": "Menya icyo uteka, icyo gitwara n'aho ukigura.",
+    "subtitle": "Tubwire ingengo y'imari yawe n'abo utekera. Tugutegurira amafunguro, tukabara ibikoresho, kandi tukagufasha kubigura ku isoko, ku mucuruzi cyangwa kuri WhatsApp.",
+    "ctaPlan": "Tegura amafunguro yanjye", "ctaCook": "Teka ibyo ufite", "ctaBudget": "Tegura na {{amount}} ku cyumweru",
+    "heroAlt": "Imboga nshya ku isoko",
+    "howTitle": "Uko bikora", "howSub": "Kuva ku ngengo y'imari kugeza ku meza mu ntambwe enye.",
+    "how1": "Tubwire ingengo n'ibyo ukunda", "how1d": "Umubare w'abantu, amafaranga y'icyumweru mu RWF, igihe cyo guteka, imirire n'ibyo utihanganira.",
+    "how2": "Bona gahunda yawe", "how2d": "Amafunguro y'iwacu aringaniye yubahiriza imbibi zawe.",
+    "how3": "Reba ibiciro by'ibikoresho", "how3d": "Buri funguro rigaragaza igiciro giteganyijwe, inkomoko yacyo n'igihe cyavuguruwe.",
+    "how4": "Gura uko ushaka", "how4d": "Ku isoko ubwawe, ku bacuruzi bemewe, cyangwa kuri WhatsApp.",
+    "plansTitle": "Gahunda zikunzwe", "plansSub": "Intangiriro ushobora guhindura mu munota umwe.",
+    "planStudent": "Ingengo y'umunyeshuri", "planStudentD": "Umuntu 1 · iminsi 7 · munsi ya RWF 20,000",
+    "planFamily": "Icyumweru cy'umuryango", "planFamilyD": "Abantu 4 · iminsi 7 · RWF 70,000",
+    "planQuick": "Amafunguro y'iminota 30", "planQuickD": "Abantu 2 · iminsi 5 · byihuta",
+    "planHealthy": "Icyumweru nta nyama", "planHealthyD": "Abantu 2 · iminsi 7 · ibikomoka ku bimera",
+    "usePlan": "Koresha iyi gahunda",
+    "cookTitle": "Usanganywe ibikoresho bimwe?", "cookSub": "Tubwire ibiri mu gikoni cyawe. Tukwereka ibyo wateka, ukagura ibibura gusa — ibipfa ubusa bike, amafaranga make.",
+    "cookExampleHave": "Ufite", "cookExampleMake": "Wateka", "cookExampleBuy": "Gura gusa",
+    "recipesTitle": "Uko bateka bikunzwe", "kitsTitle": "Ibikoresho by'ifunguro", "kitsSub": "Ibikoresho byose by'ifunguro, bipimye kandi bipfunyitse.",
+    "buyTitle": "Uburyo butatu bwo kugura", "buySub": "Hitamo ikikunogeye. Gahunda ni imwe; uburyo bwo guhaha ni bwo buhinduka.",
+    "sellersTitle": "Gereranya abacuruzi bemewe", "sellersSub": "Reba igiciro cya buri mucuruzi, amafaranga yo kugeza, amanota n'igihe igiciro cyavuguruwe.",
+    "chefsTitle": "Uko bateka biturutse ku batetsi b'iwacu", "chefsSub": "Abatetsi bo mu ngo n'inzobere mu mirire basangiza ibyo bateka koko.",
+    "communityTitle": "Ibyo abagerageje ba mbere batubwiye", "communitySub": "Ibitekerezo by'urugero byanditswe kuri iri gerageza. Ibitekerezo nyabyo bizabisimbura nyuma y'isuzuma.",
+    "quote1": "Ubu menya icyo icyumweru cyanjye cy'ibiryo kizatwara mbere yo kujya ku isoko.", "quote1by": "Umunyeshuri, Huye (urugero)",
+    "quote2": "Guhitamo amafunguro y'abantu batanu byantwaraga isaha buri cyumweru.", "quote2by": "Umubyeyi, Kicukiro (urugero)",
+    "quote3": "Kugura ibibura gusa byanzigamiye amafaranga mu cyumweru cya mbere.", "quote3by": "Ukora akazi, Remera (urugero)"
+  },
+  "buy": {
+    "market": "Urutonde rw'isoko", "marketD": "Ibiciro biteganyijwe ukurikije ibice by'isoko n'urutonde rwo gusiba. Wihahira ubwawe.",
+    "sellers": "Abacuruzi bemewe", "sellersD": "Hitamo ukurikije igiciro, amanota no kugeza. Ishyura na MTN MoMo cyangwa Airtel Money.",
+    "whatsapp": "Gutumiza kuri WhatsApp", "whatsappD": "Ohereza urutonde rwawe ku mucuruzi mu kiganiro. Umucuruzi yemeza ko bihari mbere y'uko wishyura."
+  },
+  "shop": {
+    "title": "Hahira ibikoresho", "sub": "Ibiciro by'abacuruzi b'i Kigali. Gereranya mbere yo kugura.", "all": "Byose",
+    "sort": "Tondeka", "sortFeatured": "Ibyatoranyijwe", "sortPriceAsc": "Igiciro: gito ujya hejuru", "sortPriceDesc": "Igiciro: kinini ujya hasi", "sortRating": "Amanota y'umucuruzi",
+    "results_one": "Igicuruzwa {{count}}", "results_other": "Ibicuruzwa {{count}}", "empty": "Nta gicuruzwa gihuye n'ibyo wahisemo.",
+    "emptySub": "Kuraho kimwe mu byo wahisemo cyangwa ushakishe ikindi gikoresho.", "sellers_one": "Umucuruzi {{count}}", "sellers_other": "Abacuruzi {{count}}",
+    "searchFor": "Ibisubizo bya “{{q}}”"
+  },
+  "filters": {
+    "title": "Guhitamo", "open": "Guhitamo", "category": "Ubwoko", "price": "Igiciro (cyiza kurusha)", "min": "Nibura RWF", "max": "Ntarengwa RWF",
+    "seller": "Umucuruzi", "availability": "Kuboneka", "inStockOnly": "Ibihari gusa", "rating": "Amanota y'umucuruzi", "rating45": "4.5 no hejuru", "any": "Byose",
+    "clear": "Siba byose", "active_one": "Icyahiswemo {{count}}", "active_other": "Ibyahiswemo {{count}}"
+  },
+  "product": {
+    "compare": "Hitamo umucuruzi", "compareSub": "Igicuruzwa kimwe, abacuruzi batandukanye. Ibiciro n'amafaranga yo kugeza bigenwa na buri mucuruzi.",
+    "deliverTo": "Bigezwa i", "eta": "nk'amasaha {{hours}}", "cheapest": "Igiciro gito", "marketTitle": "Uzagurira ku isoko?",
+    "marketSub": "Ibiciro bisanzwe ku masoko y'i Kigali. Ni ikigereranyo, si igiciro cy'umucuruzi.", "allergens": "Birimo",
+    "usedIn": "Bikoreshwa muri ibi biryo", "kitContents": "Ibirimo", "cookThis": "Reba uko bateka", "stockLeft": "{{count}} birahari",
+    "selected": "Byatoranyijwe", "seller": "Bigurishwa na", "collection": "Ushobora kubyifatira", "description": "Ibyerekeye iki gicuruzwa"
+  },
+  "sellerProfile": {
+    "since": "Acuruza kuva {{year}}", "products": "Ibicuruzwa bya {{name}}", "collectionAt": "Aho wabifatira: {{place}}",
+    "noCollection": "Bigezwa mu rugo gusa", "deliveryFees": "Amafaranga yo kugeza", "whatVerified": "Kwemezwa bisobanura iki?",
+    "whatVerifiedD": "Abacuruzi bemewe bazagenzurwa n'abakozi ba MealMatch ku byangombwa by'ubucuruzi n'aho bakorera. Muri iri gerageza, ikimenyetso ni amakuru y'urugero."
+  },
+  "recipes": {
+    "title": "Uko bateka", "subtitle": "Buri buryo bwo guteka bugaragaza igiciro giteganyijwe kandi bushyira ibikoresho mu gaseke rimwe.",
+    "search": "Shakisha uko bateka", "ingredients": "Ibikoresho", "method": "Uko bikorwa", "servings": "Abantu",
+    "addAll": "Shyiramo ibikoresho byose", "addMissing": "Shyiramo ibyo mbura", "estCost": "Igiciro giteganyijwe", "perServing": "{{amount}} ku muntu",
+    "prep": "Gutegura", "cook": "Guteka", "difficulty": "Ubukomere", "easy": "Biroroshye", "medium": "Biringaniye", "view": "Reba uko bateka",
+    "inPantry": "biri mu bubiko bwawe", "available": "Birahari", "unavailable": "Ntibihari ubu",
+    "allergyWarning": "Birimo {{list}}, biri ku rutonde rw'ibyo utihanganira.", "substitutions": "Ibyasimbura", "insteadOf": "{{alt}} aho kuba {{orig}}",
+    "by": "Na {{name}}", "costNote": "Ikigereranyo cy'ingano ikoreshwa, ku giciro gito cy'umucuruzi. Kugura ibipfunyika byuzuye bishobora guhenda kurushaho.",
+    "tags": { "traditional": "Gakondo", "vegetarian": "Nta nyama", "budget": "Bihendutse", "quick": "Byihuta", "protein": "Poroteyine nyinshi", "family": "Umuryango" },
+    "filterAll": "Byose", "empty": "Nta buryo bwo guteka buhuye.", "saved": "Ibyo nabitse", "savedEmpty": "Kanda umutima ku buryo bwo guteka ububike hano.",
+    "ratingsNote": "Amanota ni ay'urugero kugeza ibitekerezo nyabyo bibonetse."
+  },
+  "chefs": {
+    "title": "Abatetsi n'abahanga", "sub": "Abatetsi b'iwacu basangiza uko bateka kuri MealMatch. Iyi myirondoro ni iy'urugero.",
+    "recipes_one": "Uburyo {{count}}", "recipes_other": "Uburyo {{count}}", "view": "Reba umwirondoro", "recipesBy": "Uko {{name}} ateka"
+  },
+  "kits": {
+    "title": "Ibikoresho by'ifunguro", "sub": "Ibikoresho bipfunyitse by'ifunguro rimwe cyangwa icyumweru cyose, biva ku bacuruzi bemewe.",
+    "serves": "Abantu {{count}}", "includes": "Birimo {{list}}", "view": "Reba ibikoresho"
+  },
+  "planner": {
+    "title": "Gahunda yawe y'amafunguro", "setupTitle": "Tegura amafunguro yawe", "setupSub": "Ibibazo bike. Ushobora guhindura igisubizo icyo ari cyo cyose mbere y'uko dukora gahunda.",
+    "step": "Intambwe {{n}} kuri {{total}}", "stepLabels": ["Umuryango", "Ingengo", "Igihe n'iminsi", "Ibiryo", "Igikoni", "Isuzuma"],
+    "householdType": "Utegurira bande?",
+    "types": { "student": "Njyenyine — umunyeshuri", "professional": "Njyenyine cyangwa babiri — dukora", "family": "Umuryango", "shared": "Inzu dusangiye" },
+    "adults": "Abakuru", "children": "Abana (munsi y'imyaka 12)", "budget": "Amafaranga y'ibiryo ku cyumweru", "budgetHelp": "Tuyagabanya niba uteguye iminsi iri munsi ya 7.",
+    "budgetError": "Andika ingengo iri hagati ya RWF 5,000 na RWF 500,000.", "time": "Igihe kinini cyo guteka ku ifunguro",
+    "days": "Iminsi ingahe yo gutegura?", "meals": "Amafunguro ayahe?", "mealsError": "Hitamo nibura ifunguro rimwe.",
+    "diet": "Ibyo ukunda kurya", "likes": "Ibiryo ukunda", "vegetarian": "Nta nyama gusa", "allergies": "Ibyo utihanganira n'ibyo wirinda",
+    "kitchen": "Ibikoresho usanganywe", "kitchenHelp": "Tubikura ku rutonde rwawe rwo guhaha.", "usePantry": "Koresha ibiri mu bubiko bwanjye",
+    "pantryCount_one": "Ikintu {{count}} mu bubiko bwawe", "pantryCount_other": "Ibintu {{count}} mu bubiko bwawe", "editPantry": "Hindura ububiko",
+    "review": "Suzuma ibisubizo byawe", "generate": "Kora gahunda yanjye", "regenerate": "Tanga indi gahunda", "swap": "Hindura ifunguro",
+    "editProfile": "Hindura ibisubizo", "budgetPanel": "Ingengo y'imari", "planned": "Amafunguro ateganyijwe", "remaining": "Asigaye", "over": "Birenze",
+    "overBy": "Birenze ingengo ho {{amount}}", "budgetFor": "Ingengo y'iminsi {{days}}: {{amount}}",
+    "shoppingTitle": "Guhaha kw'iyi gahunda", "shoppingSub_one": "Ikintu {{count}} cyo kugura nyuma y'ububiko", "shoppingSub_other": "Ibintu {{count}} byo kugura nyuma y'ububiko",
+    "leftoverNote": "Amaduka agurisha ibipfunyika byuzuye, bityo igiteranyo cyo guhaha gishobora kuruta igiciro cy'amafunguro. Ibisigaye bigumana mu gikoni cyawe.",
+    "buyEverything": "Gura ku bacuruzi", "strategy": "Guhitamo abacuruzi", "strategies": { "cheapest": "Igiciro gito", "fewest": "Abacuruzi bake" },
+    "marketMode": "Hahira ku isoko aho", "whatsapp": "Tumiza kuri WhatsApp", "lunch": "Saa sita", "dinner": "Nimugoroba",
+    "days7": ["Kuwa mbere", "Kuwa kabiri", "Kuwa gatatu", "Kuwa kane", "Kuwa gatanu", "Kuwa gatandatu", "Ku cyumweru"],
+    "portion": "Ibice {{count}}", "noRecipes": "Nta biryo bihuye n'ibisubizo byawe.", "noRecipesSub": "Emera igihe kirekire cyo guteka cyangwa ukureho imbogamizi.",
+    "lowVariety": "Uburyo {{count}} gusa ni bwo buhuye n'ibisubizo byawe, bityo amafunguro amwe arisubiramo. Kongera igihe cyo guteka byongera ubwoko.",
+    "assistant": "Sobanura icyumweru cyawe", "assistantHint": "urugero: Abantu 5, RWF 50,000, nta mafi, iminota 45, iminsi 5", "assistantApply": "Vugurura gahunda",
+    "assistantUpdated": "Gahunda yavuguruwe ukurikije ibyo wanditse.", "addedToCart_one": "Ikintu {{count}} cyashyizwe mu gaseke", "addedToCart_other": "Ibintu {{count}} byashyizwe mu gaseke",
+    "costPerMeal": "≈ {{amount}}", "subs": "Simbuza igikoresho", "servingsNote": "Ingano z'ibice {{count}}"
+  },
+  "cook": {
+    "title": "Teka ibyo ufite", "subtitle": "Ongeramo ibiri mu gikoni cyawe. Tukwereka ibyo wateka, ukagura ibibura gusa.",
+    "searchLabel": "Ongeramo igikoresho", "searchPh": "Shakisha, urugero: umuceri, inyanya, amagi", "noMatch": "Nta gikoresho gihuye na “{{q}}”.",
+    "common": "Ibikoresho bisanzwe", "yourIngredients": "Mu gikoni cyanjye", "none": "Nta na kimwe kiraongerwamo.", "usePantry": "Ongeramo ububiko bwanjye", "clear": "Siba byose",
+    "staples": "Dufata ko ufite umunyu n'amavuta yo guteka.", "readyNow": "Ushobora kubiteka ubu", "match": "Ufite {{have}} kuri {{total}}",
+    "missing": "Hibura: {{list}}", "empty": "Ongeramo ibikoresho bike urebe ibyo wateka.",
+    "buyMissing": "Gura ibibura · {{amount}}", "savings": "Gukoresha ibyo ufite bikuzigamira nka {{amount}} ugereranyije no kugura byose.",
+    "photoTitle": "Kumenya ifoto", "photoSoon": "Bizaza nyuma — porogaramu ntirasoma amafoto."
+  },
+  "market": {
+    "title": "Urutonde rw'isoko", "subtitle": "Urutonde rwawe n'ibiciro biteganyijwe ku isoko, bitondetse ukurikije ibice. Siba ibyo uguze.",
+    "market": "Isoko", "source": "Urutonde ruvuye kuri", "sourcePlan": "Gahunda yanjye", "sourceCart": "Agaseke kanjye",
+    "estimate": "Igiteranyo giteganyijwe", "checked": "{{done}} kuri {{total}} byaguzwe", "spent": "Ayakoreshejwe kugeza ubu (ikigereranyo)",
+    "sections": { "produce": "Imbuto n'imboga", "grains": "Ibinyampeke n'ibinyamisogwe", "butchery": "Inyama n'amafi", "dairy": "Amata n'amagi", "groceries": "Ibindi biribwa" },
+    "empty": "Kora gahunda y'amafunguro cyangwa ushyire ibintu mu gaseke ubone urutonde rw'isoko.",
+    "priceNote": "Ibiciro by'isoko ni ibigereranyo by'urugero. Nyuma bizava ku bacuruzi, ku babarura ibiciro no ku bipimo by'icyumweru.",
+    "reset": "Kuraho ibimenyetso byose"
+  },
+  "pantry": {
+    "title": "Ububiko", "subtitle": "Ibyo usanganywe bikurwa ku rutonde rwose rwo guhaha.",
+    "add": "Shyira mu bubiko", "item": "Igikoresho", "useSoon": "Bikoreshe vuba", "expires": "Bikoreshe mbere ya {{date}}", "empty": "Ububiko bwawe burimo ubusa.",
+    "emptySub": "Ongeramo umuceri, ifu, amavuta cyangwa ikindi ubika mu rugo.", "expiry": "Itariki ntarengwa"
+  },
+  "cart": {
+    "title": "Agaseke", "empty": "Agaseke kawe karimo ubusa", "emptySub": "Kora gahunda y'amafunguro cyangwa ufungure uburyo bwo guteka ukuzuze rimwe.",
+    "fromSeller": "Kuri {{seller}}", "deliveryTo": "Aho bigezwa", "checkout": "Jya kwishyura",
+    "whatsapp": "Tumiza kuri WhatsApp aho", "sellersNote_one": "Ibyo watumije biva ku mucuruzi {{count}}.", "sellersNote_other": "Ibyo watumije biva ku bacuruzi {{count}}. Buri wese akugezaho ibye; wishyura rimwe.",
+    "summary": "Incamake", "changeSeller": "Umucuruzi", "fulfilment": "Ubishaka ute?", "delivery": "Kubigezwaho", "collection": "Kubyifatira ku mucuruzi",
+    "collectionNA": "{{seller}} ntiyemera ko wifatira; bigezwa mu rugo.", "feesNote": "Amafaranga yose azwi aragaragazwa. Nta yandi mafaranga ya serivisi yongerwaho."
+  },
+  "checkout": {
+    "title": "Kwishyura", "steps": ["Amakuru", "Isuzuma", "Kwishyura"], "contact": "Amakuru yawe", "name": "Amazina yombi",
+    "address": "Aho bizagezwa", "collectionInfo": "Uzifatira ku mucuruzi wese, aho yagennye.",
+    "district": "Akarere", "sector": "Umurenge", "street": "Umuhanda, nimero y'inzu cyangwa ikimenyetso", "streetPh": "urugero: KG 11 Ave, hafi y'isoko",
+    "review": "Suzuma itumiza ryawe", "payment": "Uburyo bwo kwishyura", "mtn": "MTN MoMo", "airtel": "Airtel Money",
+    "momoNumber": "Nimero ya mobile money", "momoHint": "Ubusabe bwo kwishyura buza kuri iyi telefoni. Ntituzigera tugusaba PIN yawe.",
+    "invalidPhone": "Andika nimero nyarwanda itangirwa na 078, 079, 072 cyangwa 073.", "providerMismatch": "Iyi nimero isa n'iya {{provider}}. Hitamo {{provider}} cyangwa ukoreshe indi nimero.",
+    "pay": "Ishyura {{amount}}", "placeWhatsApp": "Kora itumiza rya WhatsApp", "toReview": "Suzuma itumiza", "toPayment": "Komeza wishyure",
+    "errors": "Kosora ahantu {{count}} mbere yo gukomeza.",
+    "whatsappTitle": "Gutumiza kuri WhatsApp", "whatsappHow": "Uko gutumiza kuri WhatsApp bikora",
+    "whatsappStep1": "Dukora itumiza ryawe n'ubutumwa kuri buri mucuruzi.", "whatsappStep2": "Wohereza ubutumwa. Umucuruzi agusubiza yemeza ibihari cyangwa agutekerereza ibyasimbura.",
+    "whatsappStep3": "Umucuruzi yemeza kuri MealMatch, hanyuma ukishyura muri porogaramu.", "whatsappNote": "Itumiza ntiryemezwa kugeza umucuruzi asubije. MealMatch ntikurikirana ubutumwa bwo mu kiganiro.",
+    "preview": "Ubutumwa buzoherezwa", "send": "Fungura WhatsApp ya {{seller}}", "sent": "Byafunguwe", "viewOrder": "Reba itumiza"
+  },
+  "pay": {
+    "title": "Emeza kwishyura kuri telefoni yawe", "sent": "Ubusabe bwa {{provider}} bwa {{amount}} bwoherejwe kuri {{phone}}.",
+    "instruction": "Andika PIN yawe kuri telefoni wemeze. Ntuzigere uha undi muntu PIN yawe.", "noPrompt": "Nta busabe wabonye? Kanda {{ussd}} urebe ibitegereje kwemezwa.",
+    "waiting": "Dutegereje ko {{provider}} yemeza…", "expiresIn": "Birangira mu {{time}}", "success": "Kwishyura kwemejwe",
+    "successSub": "Itumiza ryawe ryemejwe kandi abacuruzi bamenyeshejwe.", "failed": "Kwishyura ntikwarangiye", "expired": "Ubusabe bwo kwishyura bwarengeje igihe",
+    "cancelled": "Kwishyura kwahagaritswe", "failedSub": "Nta mafaranga yakuweho. Ushobora kongera ugerageza ukoresheje iyi nimero cyangwa indi.",
+    "retry": "Ongera ugerageze", "viewOrder": "Reba itumiza", "simulate": "Igana igisubizo cy'ikigo", "approve": "Byemejwe", "decline": "Byanzwe", "timeout": "Igihe cyarangiye",
+    "alreadyPending": "Hari ubusabe bwo kwishyura iri tumiza butegereje kwemezwa.", "paidAlready": "Iri tumiza ryamaze kwishyurwa."
+  },
+  "order": {
+    "title": "Itumiza {{number}}", "placed": "Ryakozwe {{date}}", "thanks": "Murakoze — itumiza ryanyu ryemejwe.",
+    "orderStatus": "Itumiza", "paymentStatus": "Kwishyura", "tracking": "Aho bigeze", "history": "Amateka y'uko byagenze", "none": "Nta tumiza urakora.",
+    "status": { "pending_payment": "Rirategereje kwishyurwa", "awaiting_seller_confirmation": "Rirategereje umucuruzi", "confirmed": "Ryemejwe", "completed": "Ryarangiye", "cancelled": "Ryahagaritswe" },
+    "seller": { "pending": "Ntiriratangira", "accepted": "Ryemewe", "preparing": "Riri gutegurwa", "ready": "Ryiteguye", "out_for_delivery": "Riri mu nzira", "delivered": "Ryagezweho", "collected": "Ryafashwe", "rejected": "Umucuruzi yaryanze" },
+    "payment": { "none": "Ntikuratangira", "initiated": "Kwatangiye", "pending": "Gutegereje kwemezwa", "successful": "Kwishyuwe", "failed": "Kwanze", "cancelled": "Kwahagaritswe", "expired": "Kwarengeje igihe" },
+    "payNow": "Ishyura {{amount}}", "trackingNote": "Aho bigeze bivugururwa na buri mucuruzi. Gukurikirana umumotari ako kanya ntibirashoboka."
+  },
+  "gate": {
+    "title": "Injira ukoreshe {{feature}}", "sub": "Konti y'ubuntu ibika umuryango wawe, gahunda, ububiko n'amatumiza kugira ngo ubisange ku gikoresho icyo ari cyo cyose.",
+    "create": "Fungura konti y'ubuntu", "signIn": "Nsanzwe mfite konti", "browse": "Komeza urebe uko bateka",
+    "features": { "planner": "gutegura amafunguro", "cook": "“Teka ibyo ufite”", "pantry": "ububiko bwawe", "market": "urutonde rw'isoko", "checkout": "kwishyura", "account": "konti yawe", "favorites": "ibyo wabitse", "orders": "amatumiza yawe" }
+  },
+  "auth": {
+    "signInTitle": "Injira", "registerTitle": "Fungura konti yawe", "subtitle": "Bika umuryango wawe, gahunda n'amatumiza.",
+    "phoneTab": "Telefoni", "emailTab": "Imeyili", "phone": "Nimero ya telefoni", "sendCode": "Ohereza kode", "code": "Kode y'imibare 6",
+    "codeSent": "Twohereje kode kuri {{phone}}. (Igerageza: imibare 6 iyo ari yo yose irakora — nta SMS yoherezwa.)", "codeError": "Andika kode y'imibare 6.",
+    "verify": "Emeza ukomeze", "changeNumber": "Hindura nimero", "email": "Imeyili", "emailError": "Andika imeyili nyayo.",
+    "password": "Ijambo ry'ibanga", "passwordHelp": "Nibura inyuguti 8.", "passwordError": "Koresha nibura inyuguti 8.",
+    "confirmPassword": "Emeza ijambo ry'ibanga", "confirmError": "Amagambo y'ibanga ntahura.", "name": "Amazina yombi", "nameError": "Andika izina ryawe.",
+    "signIn": "Injira", "register": "Fungura konti", "noAccount": "Uri mushya kuri MealMatch?", "createAccount": "Fungura konti",
+    "haveAccount": "Usanzwe ufite konti?", "notFound": "Nta konti ikoresha iyi nimero. Banza ufungure konti.",
+    "invalid": "Imeyili cyangwa ijambo ry'ibanga si byo.", "exists": "Hari konti isanzwe ikoresha iyi nimero cyangwa imeyili. Injira aho.",
+    "forgot": "Wibagiwe ijambo ry'ibanga?", "resetTitle": "Hindura ijambo ry'ibanga", "resetSub": "Andika imeyili yawe tukoherereze umurongo wo kurihindura.",
+    "resetSend": "Ohereza umurongo", "resetSent": "Niba hari konti ya {{email}}, umurongo uzoherezwa. (Igerageza: nta meyili yoherezwa.)",
+    "terms": "Ukomeje, wemera Amabwiriza na Politiki y'ibanga.", "demo": "Urimo gusuzuma iri gerageza?",
+    "demoD": "Injira ukoresheje 0788 000 101 (abacuruzi) cyangwa 0788 000 900 (ubuyobozi).", "phoneEmailNote": "Ongeramo imeyili kugira ngo nyuma uzinjire ukoresheje ijambo ry'ibanga."
+  },
+  "account": {
+    "title": "Konti yanjye", "profile": "Umwirondoro", "household": "Umuryango", "orders": "Amatumiza yanjye", "language": "Ururimi",
+    "householdSummary": "Abakuru {{adults}} · Abana {{children}} · {{budget}} ku cyumweru", "notSet": "Ntibiratunganywa.",
+    "profileSaved": "Umwirondoro wabitswe.", "memberSince": "Umunyamuryango"
+  },
+  "sellerHub": {
+    "title": "Abacuruzi", "overview": "Incamake", "orders": "Amatumiza", "offers": "Ibiciro n'ibihari",
+    "revenue": "Amatumiza yishyuwe (urugero)", "pending": "Amatumiza yo gukorera", "rating": "Amanota", "nextPayout": "Kwishyurwa gutaha (ikigereranyo)",
+    "accept": "Emera", "reject": "Anga", "markPreparing": "Tangira gutegura", "markReady": "Byiteguye gufatwa", "markOut": "Biri mu nzira",
+    "markDelivered": "Byagezweho", "markCollected": "Byafashwe", "confirmWhatsApp": "Emeza itumiza rya WhatsApp",
+    "noOrders": "Nta tumiza riraza. Amatumiza akorewe muri iyi mashakisha agaragara hano.", "updated": "Igiciro n'ibihari byabitswe.", "lowStock": "Bigiye gushira",
+    "topDrivers": "Uburyo bwo guteka bukoresha ibicuruzwa byawe", "commission": "Komisiyo izemezwa", "viewingAs": "Ureba nka",
+    "product": "Igicuruzwa", "stock": "Ibihari", "marketRange": "Igiciro giteganyijwe ku isoko", "waitingPayment": "Bitegereje ko umukiriya yishyura"
+  },
+  "admin": {
+    "title": "Ubuyobozi", "overview": "Incamake", "sellers": "Kwemeza abacuruzi", "prices": "Kugenzura ibiciro",
+    "gmv": "Agaciro k'amatumiza (urugero)", "activeSellers": "Abacuruzi bakora", "plans": "Gahunda zakozwe (urugero)", "aiCost": "Ikiguzi cya AI",
+    "aiCostNone": "Ntibirahuzwa", "approve": "Emeza", "reject": "Anga", "documents": "Inyandiko {{count}}", "submitted": "Byoherejwe {{date}}",
+    "source": "Inkomoko", "observed": "Byabonetse", "range": "Hagati ya", "pending": "{{count}} bitegereje", "allDone": "Nta kintu gitegereje isuzuma.",
+    "sources": { "seller": "Umucuruzi", "scout": "Ubarura ibiciro", "community": "Abaturage" }, "product": "Igicuruzwa", "market": "Isoko", "tin": "TIN"
+  },
+  "allergens": { "peanuts": "Ubunyobwa", "eggs": "Amagi", "dairy": "Amata", "fish": "Amafi", "gluten": "Gluten" },
+  "footer": {
+    "about": "Smart MealMatch ihuza gutegura amafunguro no guhaha ku miryango y'i Kigali.",
+    "explore": "Sura", "help": "Ubufasha", "company": "Ikigo", "sell": "Curuza kuri MealMatch", "rights": "© {{year}} Smart MealMatch. Ibiciro mu RWF."
+  },
+  "info": {
+    "about": { "title": "Ibyerekeye Smart MealMatch", "body": "Smart MealMatch ni umushinga w'abanyeshuri bo muri Kaminuza y'u Rwanda, Ishami ry'Ubumenyi n'Ikoranabuhanga. Ifasha imiryango guhitamo icyo iteka, kumenya icyo kizatwara no kugura ibikoresho uko ibyifuza.\n\nUru rubuga ni igerageza. Abacuruzi, ibiciro, amanota, abatetsi no kwishyura ni amakuru y'urugero mu gihe tugerageza iki gitekerezo n'abakoresha nyabo." },
+    "how": { "title": "Uko bikora", "body": "1. Tubwire iby'umuryango wawe: umubare w'abantu, amafaranga y'icyumweru mu RWF, igihe cyo guteka, ibyo ukunda n'ibyo utihanganira.\n\n2. Dukora gahunda ivuye ku buryo bwo guteka bw'iwacu buhuye n'ibisubizo byawe, tukagereranya igiciro cya buri funguro.\n\n3. Tubara ibikoresho byose tugakuraho ibyo usanganywe.\n\n4. Uhitamo uko ugura: urutonde rw'isoko n'ibiciro biteganyijwe, abacuruzi bemewe ukishyura na mobile money, cyangwa itumiza rya WhatsApp umucuruzi yemeza." },
+    "faq": { "title": "Ibibazo bikunze kubazwa", "q1": "Ese ibiciro ni nyabyo?", "a1": "Ntabwo biraba byo. Iri gerageza rikoresha ibiciro by'urugero. Buri giciro kigaragaza inkomoko yacyo (igiciro cy'umucuruzi cyangwa ikigereranyo cy'isoko) n'igihe kimaze.", "q2": "Ese gutegura amafunguro bikoresha ubwenge buhangano?", "a2": "Ubu gutegura bikoresha amategeko: bivangura uburyo bwo guteka ukurikije ibyo utihanganira, imirire n'igihe, hanyuma bikabihuza n'ingengo yawe. Ubwenge buhangano buzafasha mu gihe kizaza.", "q3": "Nishyura nte?", "a3": "MTN MoMo na Airtel Money birateganyijwe. Muri iri gerageza kwishyura ni ukwigana kandi nta mafaranga akurwaho.", "q4": "Kuki nkeneye konti?", "a4": "Umuryango wawe, gahunda, ububiko n'amatumiza bibikwa kuri konti yawe kugira ngo ubisange nugaruka.", "q5": "Ni nde ungezaho ibyo natumije?", "a5": "Buri mucuruzi akugezaho igice cye cyangwa akakwemerera kucyifatira. Amafaranga yo kugeza ni ay'urugero kugeza abacuruzi bayemeje." },
+    "contact": { "title": "Twandikire", "body": "Itsinda ry'umushinga Smart MealMatch\nKaminuza y'u Rwanda, Ishami ry'Ubumenyi n'Ikoranabuhanga, Kigali\n\nIri ni igerageza ry'amasomo. Aho abakiriya babariza bizongerwaho mbere yo gutangiza ku mugaragaro." },
+    "privacy": { "title": "Ibanga", "body": "Muri iri gerageza, ibyo wanditse byose bibikwa muri iyi mashakisha gusa. Nta na kimwe cyoherezwa kuri seriveri.\n\nNtituzigera tugusaba cyangwa ngo tubike PIN ya mobile money. Amagambo y'ibanga abikwa mu buryo budashobora gusubizwa inyuma, ntabwo ari inyandiko isanzwe.\n\nPolitiki yuzuye izashyirwa ahagaragara mbere yo gutangiza." },
+    "terms": { "title": "Amabwiriza yo gukoresha", "body": "Uru rubuga ni igerageza ry'isuzuma n'amasomo. Ibiciro, abacuruzi, ibicuruzwa no kwishyura ni ukwigana kandi si ibyo kugurisha koko. Amabwiriza yuzuye azashyirwa ahagaragara mbere yo gutangiza." },
+    "delivery": { "title": "Kugeza no gusubiza", "body": "Buri mucuruzi agezaho ibintu i Kigali (Gasabo, Kicukiro na Nyarugenge) cyangwa akemera ko wifatira. Amafaranga n'igihe bigaragazwa ni iby'urugero.\n\nPolitiki yo gusubiza no gusubizwa amafaranga: izemezwa n'abacuruzi. Ibibazo by'ibiribwa bishya bizamenyeshwa umucuruzi binyuze ku rupapuro rw'itumiza." }
+  },
+  "notFound": { "title": "Ntitwabonye iyo paji", "back": "Subira ahabanza" }
+}
