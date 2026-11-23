@@ -30,9 +30,10 @@ function CheckoutInner() {
   const [street, setStreet] = useState("");
   const [showErrors, setShowErrors] = useState(false);
   const [placed, setPlaced] = useState<Order | null>(null);
+  const [placingPayment, setPlacingPayment] = useState(false);
   const [opened, setOpened] = useState<string[]>([]);
 
-  if (lines.length === 0 && !placed) return <Navigate to="/cart" replace />;
+  if (lines.length === 0 && !placed && !placingPayment) return <Navigate to="/cart" replace />;
 
   const groups = groupBySeller(lines, district, fulfilment);
   const subtotal = groups.reduce((s, g) => s + g.subtotal, 0);
@@ -189,8 +190,9 @@ function CheckoutInner() {
               <PaymentForm amount={total} defaultPhone={user.phone} onSubmit={(provider, msisdn) => {
                 const order = createOrder();
                 startPayment(order.id, provider, msisdn);
-                clear();
+                setPlacingPayment(true);
                 navigate(`/pay/${order.id}`, { replace: true });
+                clear();
               }} />
               <Button variant="ghost" className="mt-3" onClick={() => setStep(1)}>{t("common.back")}</Button>
             </section>

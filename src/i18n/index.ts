@@ -1,5 +1,4 @@
 import i18n from "i18next";
-import LanguageDetector from "i18next-browser-languagedetector";
 import { initReactI18next } from "react-i18next";
 import en from "./en.json";
 
@@ -26,10 +25,11 @@ async function ensureLoaded(lng: string) {
 export async function setLanguage(lng: string) {
   await ensureLoaded(lng);
   await i18n.changeLanguage(lng);
+  // Persist explicitly as a fallback for browsers that block detector caching.
+  try { localStorage.setItem("mm-lang", lng); } catch { /* Language switching still works for this session. */ }
 }
 
-i18n
-  .use(LanguageDetector)
+const i18nInitialized = i18n
   .use(initReactI18next)
   .init({
     resources: { en: { translation: en } },
@@ -38,17 +38,22 @@ i18n
     supportedLngs: ["en", "rw", "fr"],
     nonExplicitSupportedLngs: true,
     interpolation: { escapeValue: false },
-    detection: { order: ["localStorage", "navigator"], lookupLocalStorage: "mm-lang", caches: ["localStorage"] },
   });
 
 i18n.on("languageChanged", (lng) => {
   document.documentElement.lang = lng;
 });
 
-/** Resolves once the detected language's resources are ready (awaited before first render). */
-export const i18nReady = ensureLoaded(i18n.resolvedLanguage ?? "en").then(() => {
-  document.documentElement.lang = i18n.resolvedLanguage ?? "en";
-  return i18n.changeLanguage(i18n.resolvedLanguage);
+/** Resolve only after detection completes, then load and activate that locale before first paint. */
+export const i18nReady = i18nInitialized.then(async () => {
+  let savedLanguage: string | null = null;
+  try { savedLanguage = localStorage.getItem("mm-lang"); } catch { /* Storage can be disabled in private browsing. */ }
+  const browserLanguage = typeof navigator === "undefined" ? "en" : navigator.language.slice(0, 2);
+  const candidate = savedLanguage ?? browserLanguage ?? i18n.resolvedLanguage ?? "en";
+  const language = LANGUAGES.some((option) => option.code === candidate) ? candidate : "en";
+  await ensureLoaded(language);
+  await i18n.changeLanguage(language);
+  document.documentElement.lang = language;
 });
 
 export default i18n;

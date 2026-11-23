@@ -24,13 +24,14 @@ function CookInner() {
   const addMany = useCart((s) => s.addMany);
   const [have, setHave] = useState<string[]>([]);
   const [q, setQ] = useState("");
+  const [activeSuggestion, setActiveSuggestion] = useState(0);
   const servings = householdServings(profile);
   const query = q.trim().toLowerCase();
 
   const suggestions = query
     ? groceryProducts.filter((p) => !have.includes(p.id) && !STAPLES.has(p.id) && Object.values(p.name).some((n) => n.toLowerCase().includes(query))).slice(0, 6)
     : [];
-  const add = (id: string) => { setHave((h) => (h.includes(id) ? h : [...h, id])); setQ(""); };
+  const add = (id: string) => { setHave((h) => (h.includes(id) ? h : [...h, id])); setQ(""); setActiveSuggestion(0); };
   const remove = (id: string) => setHave((h) => h.filter((x) => x !== id));
 
   const ranked = useMemo(
@@ -64,19 +65,28 @@ function CookInner() {
           <div className="relative">
             <label className="label" htmlFor="ing-search">{t("cook.searchLabel")}</label>
             <input
-              id="ing-search" type="search" value={q} onChange={(e) => setQ(e.target.value)} placeholder={t("cook.searchPh")} className="field"
-              role="combobox" aria-expanded={suggestions.length > 0} aria-controls="ing-list" aria-autocomplete="list"
-              onKeyDown={(e) => { if (e.key === "Enter" && suggestions[0]) { e.preventDefault(); add(suggestions[0].id); } }}
+              id="ing-search" type="search" value={q} onChange={(e) => { setQ(e.target.value); setActiveSuggestion(0); }} placeholder={t("cook.searchPh")} className="field"
+              role="combobox" aria-expanded={!!query} aria-controls="ing-list" aria-autocomplete="list"
+              aria-activedescendant={query && suggestions[activeSuggestion] ? `ing-option-${suggestions[activeSuggestion].id}` : undefined}
+              onKeyDown={(e) => {
+                if (!query) return;
+                if (e.key === "ArrowDown" && suggestions.length) { e.preventDefault(); setActiveSuggestion((i) => Math.min(i + 1, suggestions.length - 1)); }
+                else if (e.key === "ArrowUp" && suggestions.length) { e.preventDefault(); setActiveSuggestion((i) => Math.max(i - 1, 0)); }
+                else if (e.key === "Home" && suggestions.length) { e.preventDefault(); setActiveSuggestion(0); }
+                else if (e.key === "End" && suggestions.length) { e.preventDefault(); setActiveSuggestion(suggestions.length - 1); }
+                else if (e.key === "Enter" && suggestions[activeSuggestion]) { e.preventDefault(); add(suggestions[activeSuggestion].id); }
+                else if (e.key === "Escape") { setQ(""); setActiveSuggestion(0); }
+              }}
             />
             {query && (
               <ul id="ing-list" role="listbox" className="absolute inset-x-0 z-10 mt-1 overflow-hidden rounded-lg border border-line bg-surface shadow-soft">
                 {suggestions.length === 0 ? (
-                  <li className="px-3 py-2.5 text-sm text-muted">{t("cook.noMatch", { q })}</li>
-                ) : suggestions.map((p) => (
-                  <li key={p.id} role="option" aria-selected={false}>
-                    <button type="button" onClick={() => add(p.id)} className="flex min-h-11 w-full items-center gap-3 px-3 text-left text-sm hover:bg-sunken">
-                      <Img src={p.image} alt="" fallback={p.emoji} className="size-8 rounded" sizes="32px" />{loc(p.name, lang)}
-                    </button>
+                  <li role="option" aria-disabled="true" className="px-3 py-2.5 text-sm text-muted">{t("cook.noMatch", { q })}</li>
+                ) : suggestions.map((p, index) => (
+                  <li key={p.id} id={`ing-option-${p.id}`} role="option" aria-selected={index === activeSuggestion}
+                    onMouseDown={(e) => e.preventDefault()} onClick={() => add(p.id)}
+                    className={`flex min-h-11 cursor-pointer items-center gap-3 px-3 text-sm ${index === activeSuggestion ? "bg-sunken" : "hover:bg-sunken"}`}>
+                    <Img src={p.image} alt="" fallback={p.emoji} className="size-8 rounded" sizes="32px" />{loc(p.name, lang)}
                   </li>
                 ))}
               </ul>

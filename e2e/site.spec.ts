@@ -47,9 +47,14 @@ test("images load from local licensed files", async ({ page }) => {
   expect(broken).toEqual([]);
 });
 
-test("language switch translates the page and persists", async ({ page }) => {
+test("language switch translates the page and persists", async ({ page }, info) => {
   await page.goto("/");
-  await page.getByLabel(/language/i).first().selectOption("rw");
+  if (info.project.name === "mobile-320" || info.project.name === "phone-390") {
+    await page.getByRole("button", { name: /open menu/i }).click();
+    await page.getByRole("dialog").getByLabel(/language/i).selectOption("rw");
+  } else {
+    await page.getByLabel(/language/i).first().selectOption("rw");
+  }
   await expect(page.getByRole("heading", { level: 1 })).toContainText("Menya icyo uteka");
   await page.reload();
   await expect(page.getByRole("heading", { level: 1 })).toContainText("Menya icyo uteka");
@@ -110,7 +115,7 @@ test("declined payment can be retried without a second pending charge", async ({
   await page.getByLabel("Street, house number or landmark").fill("KG 9 Ave");
   await page.getByRole("button", { name: "Review order" }).click();
   await page.getByRole("button", { name: "Continue to payment" }).click();
-  await page.getByText("Airtel Money", { exact: true }).click();
+  await page.locator("#main").getByText("Airtel Money", { exact: true }).click();
   await page.getByRole("button", { name: /^Pay RWF/ }).click();
   await page.getByRole("button", { name: "Declined" }).click();
   await expect(page.getByRole("heading", { name: "Payment not completed" })).toBeVisible();

@@ -90,7 +90,9 @@ function MarketInner() {
                             </span>
                             <span className="text-right">
                               <span className="tabular block text-sm font-semibold">{formatRange(i.min, i.max)}</span>
-                              <Badge tone="clay" className="mt-1">{t("price.estimate")}</Badge>
+                              <Badge tone="clay" className="mt-1">
+                                {t("price.estimate")} · {i.p.market.updatedDaysAgo === 0 ? t("price.today") : t("price.daysAgo", { count: i.p.market.updatedDaysAgo })}
+                              </Badge>
                             </span>
                           </label>
                         </li>

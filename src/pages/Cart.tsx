@@ -24,6 +24,7 @@ export default function Cart() {
   if (lines.length === 0) {
     return (
       <Container className="max-w-2xl">
+        <PageHeader title={t("cart.title")} />
         <EmptyState icon={<ShoppingBag className="size-6" />} title={t("cart.empty")} sub={t("cart.emptySub")}
           action={<><ButtonLink to="/planner">{t("home.ctaPlan")}</ButtonLink><ButtonLink to="/recipes" variant="secondary">{t("nav.recipes")}</ButtonLink></>} />
       </Container>
